@@ -1,0 +1,8 @@
+{ 
+  "widget" : "Table",
+  "type": "view",
+  "template" : "Table",
+  "image" : "/admin/images/table.png",
+  "description" : "Table widget",
+  "resize" : true
+}

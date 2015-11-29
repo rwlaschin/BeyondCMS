@@ -1,0 +1,8 @@
+{ 
+  "widget" : "Dialog",
+  "type": "container",
+  "template" : "Dialog",
+  "image" : "/admin/images/dialog.png",
+  "description" : "Pop-up modal window for messaging",
+  "resize" : true
+}

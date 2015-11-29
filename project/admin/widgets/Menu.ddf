@@ -1,0 +1,12 @@
+{ 
+    /* note menus and tabs can use radio buttons as the state objects for
+      +automatic highlighting and controls using angularjs                 */
+  "widget" : "Menu",
+  "type": "container",
+  "template" : "Menu",
+  "image" : "/admin/images/menu.png",
+  "description" : "Menu Container widget",
+  "container" :  true
+  /* resize : maybe??  Width only?    */
+  /* I don't have a button widget ... */
+}

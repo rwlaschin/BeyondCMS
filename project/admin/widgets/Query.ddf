@@ -1,0 +1,7 @@
+{ 
+  "widget" : "Query",
+  "type": "actor",
+  "template" : "Query",
+  "image" : "/admin/images/query.png",
+  "description" : "Query Manager"
+}

@@ -1,0 +1,8 @@
+{ 
+  "widget" : "Graph",
+  "type": "view",
+  "template" : "Graph",
+  "image" : "/admin/images/graph.png",
+  "description" : "Graph visibility widget",
+  "resize" : true
+}

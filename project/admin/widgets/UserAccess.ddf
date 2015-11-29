@@ -1,0 +1,8 @@
+{ 
+  "widget" : "UserAccess",
+  "type": "actor",
+  "template" : "UserAccess",
+  "image" : "/admin/images/user_access.png",
+  "description" : "User Access Data Manager",
+  "singleton" : true
+}

@@ -1,0 +1,8 @@
+{ 
+  "widget" : "BreadCrumbs",
+  "type": "view",
+  "template" : "BreadCrumbs",
+  "image" : "/admin/images/breadcrumbs.png",
+  "description" : "Tracks site navigation"
+  /* resize : maybe??  Width only? */
+}

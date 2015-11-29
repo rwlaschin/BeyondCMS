@@ -1,0 +1,148 @@
+body {
+    height:100%;
+    margin:0px;
+    padding:0px;
+    zoom:1;
+}
+
+/* Style Sheet for admin tool */
+.bcms-admin .bcms-admin-widget-selector .bcms-widget {
+    width:100px; height:100px;
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+}
+
+.bcms-admin .bcms-widget {
+    width:100px; height:100px;
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+}
+
+
+.bcms-admin .bcms-widget .bcms-grabbed{
+    width:25px; height:25px;
+    background-size: 25px 25px;
+    background-repeat: no-repeat;
+}
+
+.bcms-admin .bcms-widget {
+    border-color: silver;
+}
+
+div.admin-tools {
+    /* keeps unit from taking any space */
+    width:0px;
+    height:0px;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+div.bcms-admin-toolbar {
+    position:fixed;
+    color: white;
+    padding:2px;
+    overflow: hidden!important;
+    background-color: black;
+    border: 2px solid gray;
+    border-radius: 10px 10px 10px 10px;
+    width:200px;
+    max-height:600px;
+    min-height:200px;
+}
+
+.bcms-selector-control {
+    width:0px; height:0px;
+}
+
+input[type=button] {
+    border-radius: 10px 10px 10px 10px;
+}
+
+.bcms-horizontal-buttons input[type=button] {
+    border-radius: 0px;
+    display:inline-block;
+}
+
+.bcms-horizontal-buttons input[type=button] + input[type=button]:first-child {
+    border-radius-top-left: 10px;
+    border-radius-bottom-left: 10px;
+}
+
+.bcms-horizontal-buttons input[type=button] + input[type=button]:last-child {
+    border-radius-top-right: 10px;
+    border-radius-bottom-right: 10px;
+}
+
+.bcms-vertical-buttons input[type=button] {
+    border-radius: 0px;
+    display:block;
+    width:100%;
+}
+
+.bcms-vertical-buttons input[type=button] + input[type=button]:first-child {
+    border-radius-top-left: 10px;
+    border-radius-top-right: 10px;
+}
+
+.bcms-vertical-buttons input[type=button] + input[type=button]:last-child {
+    border-radius-bottom-left: 10px;
+    border-radius-bottom-right: 10px;
+}
+
+.bcms-tab-panel {
+    background-color: white;
+    width: 100%;
+}
+
+.bcms-tab-panel-default {
+    display:none;
+}
+
+.bcms-tab-panel-show {
+    display:block;
+}
+
+.bcms-panel {
+    background-color: #162129;
+    padding:1px 0px 0px 1px;
+}
+
+.bcms-admin-widget-selector {
+    overflow-Y:scroll;
+    max-height:525px;
+    min-height:125px;
+
+}
+
+.bcms-application {
+    background-color: tan;
+    border: 1px solid orange;
+    width: 1000px; height: 700px;
+    position: absolute;
+    left: 215px;
+}
+
+.bcms-highlight-drop-target {
+    background-color: purple;
+}
+
+#bcms_widget_placeholder_grab_object {
+    position:absolute;
+}
+
+.bcms-widget-placeholder-grab-object-attached {
+    width:35px;
+    height:35px;
+    background-size:35px 35px;
+    border: 2px solid darkgray;
+    z-index:10000;
+    border-radius: 2px;
+    filter: alpha(opacity=50);
+    -khtml-opacity: 0.5;
+    -moz-opacity: 0.5;
+    opacity: 0.5;
+}

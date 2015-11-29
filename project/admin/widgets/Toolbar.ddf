@@ -1,0 +1,8 @@
+{ 
+  "widget" : "Toolbar",
+  "type": "container",
+  "template" : "Toolbar",
+  "image" : "/admin/images/toolbar.png",
+  "description" : "Toolbar Widget",
+  "container" : true
+}

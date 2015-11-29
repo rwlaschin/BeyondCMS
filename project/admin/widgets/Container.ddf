@@ -1,0 +1,9 @@
+{ 
+  "widget" : "Container",
+  "type": "container",
+  "template" : "Container",
+  "image" : "/admin/images/container.png",
+  "description" : "Panel which manages visibility and positioning for associated widgets",
+  "resize" : true,
+  "container" : true
+}

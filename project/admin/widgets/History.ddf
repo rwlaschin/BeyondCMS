@@ -1,0 +1,7 @@
+{ 
+  "widget" : "History",
+  "type": "actor",
+  "template" : "History",
+  "image" : "/admin/images/history.png",
+  "description" : "Track Changes"
+}

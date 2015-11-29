@@ -1,0 +1,7 @@
+{ 
+  "widget" : "Filter",
+  "type": "actor",
+  "template" : "Filter",
+  "image" : "/admin/images/filter.png",
+  "description" : "Filter results from table based format"
+}

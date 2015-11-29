@@ -1,0 +1,14 @@
+*********************************************
+*        BeyondCMS README
+*
+* author: robert.wlaschin
+* copywrite: 11/13/215
+*********************************************
+
+Overview -
+Goal to make a drag and drop designer for Client Portals
+. support client side widgets and layout management
+. server-side interface interaction
+
+Setup/Config - 
+

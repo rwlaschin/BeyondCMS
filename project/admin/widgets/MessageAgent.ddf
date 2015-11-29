@@ -1,0 +1,8 @@
+{ 
+  "widget" : "MessageAgent",
+  "type": "actor",
+  "template" : "MessageAgent",
+  "image" : "/admin/images/message_agent.png",
+  "description" : "Communication interface",
+  "singleton" : true
+}

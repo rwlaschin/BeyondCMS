@@ -1,0 +1,8 @@
+{ 
+  "widget" : "User",
+  "type": "actor",
+  "template" : "User",
+  "image" : "/admin/images/user.png",
+  "description" : "User information store",
+  "singleton" : true
+}
