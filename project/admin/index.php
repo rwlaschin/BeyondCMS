@@ -9,18 +9,12 @@
         $setupPage = false;
         $currentProject = "$currentProject/load.php";
     }
+
 ?>
 <html>
     <head>
         <link rel="stylesheet" type="text/css" href="/admin/css/bcmsBase.css"/>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
-<?php if( $setupPage == false ) { ?>
-        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.2/angular.js"></script>
-        <!--script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script-->
-        <!--script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.2/angular.min.js"></script-->
-        <!-- script src="https://ajax.googleapis.com/ajax/libs/angular_material/1.0.0-rc1/angular-material.min.js"></script -->
-        <script src="/admin/js/beyondTools.js"></script>
-<?php } ?>
     </head>
     <body ng-app='bcms' class='bcms-admin'>
         <!-- this can only be bootstrap as we have to combine/insert pieces to generate the code we want -->
@@ -66,6 +60,12 @@
                      with the mouse -->
             </div>
         </div>
+<?php } ?>
+<?php if( $setupPage == false ) { ?>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.2/angular.js"></script>
+        <!-- script src="https://ajax.googleapis.com/ajax/libs/angular_material/1.0.0-rc1/angular-material.min.js"></script -->
+        <script src="/admin/js/adminApp.js"></script>
+        <script src="/admin/js/adminTools.js"></script>
 <?php } ?>
     </body>
 </html>

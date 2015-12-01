@@ -1,5 +1,17 @@
 'use strict';
 
+// this is loaded first
+var app = angular.module('bcms', []);
+
+// Base Controller this will be defined on the application space
+// and enables all of the admin functionality
+function bcmsBaseWidgetManager($scope, $http, $log) {
+    $scope.adminEnabled = true;
+}
+
+////////////////////////////////////////////////////////////////////////////////////////////////
+// Function that will be used for the save functionality
+
 function _serializeDOM() {
     function getXMLParser() {
         if (typeof window.XMLSerializer != "undefined") {
@@ -11,7 +23,6 @@ function _serializeDOM() {
             alert("Browser not supported");
             throw "Browser not supported";
         }
-
     }
     var xmlStrings = [], xmlDump;
     var parseFunction;
@@ -19,7 +30,6 @@ function _serializeDOM() {
     for ( child in document.body.children) {
         xmlStrings.push( parseFunction( child ) );
     }
-    
 }
 
 ///////////////////////////////////////////////////////////// Angular Controllers
@@ -28,13 +38,13 @@ function _serializeDOM() {
     { count : number, fields : [ <list of fields> ], rows : [ { field: data}, ... ] }
 */
 
-var app = angular.module('bcms', []);
+///////////////////////////////////////////////////////////// Angular Controllers
+
+/* Return Format request.php
+    { count : number, fields : [ <list of fields> ], rows : [ { field: data}, ... ] }
+*/
 
 /********************************************** Directives ************************************************/
-app.directive('ngDroppable', [ '$document', '$log', function($document,$log) {
-    // this is for objects than can be dropped into
-} ] );
-
 app.directive('ngGrabbable', [ '$document', '$log', function($document,$log) {
     return {
         restrict : 'A',
@@ -126,7 +136,7 @@ app.directive('ngGrabbable', [ '$document', '$log', function($document,$log) {
                     currentOver.removeClass('bcms-highlight-drop-target');
                     // this is what I'll be creating the new item in
                     if( typeof ngGrabbable.dropTarget === 'function' ) {
-                        ngGrabbable.dropTarget(elem,currentOver)
+                        var data = ngGrabbable.dropTarget(elem,currentOver);
                     }
                     
                     // do whatever here
@@ -159,7 +169,7 @@ app.controller('bcmsAdminPanel',['$scope','$http','$log',function($scope,$http,$
     
 }]);
 
-app.controller('bcmsAdminWidgetSelector',['$scope','$http', '$log', function($scope,$http,$log) {
+function bcmsAdminWidgetSelector($scope,$http,$log) {
     // make a request for the widgets
     // load in the widgets
 
@@ -211,6 +221,11 @@ app.controller('bcmsAdminWidgetSelector',['$scope','$http', '$log', function($sc
         this.show[this.widgetPanelSelection] = true;
     };
 
+    function insertNewWidget(target,data) {
+        alert( response );
+
+    };
+
     $scope.grabOptions = {
         placeholder : angular.element( document.getElementById('bcms_widget_placeholder_grab_object') ), // jquery selector
         dragging : false,
@@ -225,23 +240,18 @@ app.controller('bcmsAdminWidgetSelector',['$scope','$http', '$log', function($sc
                     return false; // break out early
                 }
             });
+            // create a child element with the correct data
+            // load template from template directory (request?)
+            // create new template by adding it to the dom and then
+            // compiling it.
+            var dscope = dest.scope();
+            $http.get('/libraries/request.php?template=' + def.widget )
+            .then(function(response){insertNewWidget.call(this,dest,def);},
+                  function(response) {
+                      console.error('Failed to make call to get widget list');
+                  } );
         }
     };
-}]);
-/*
-.controller('testCtrl', function($scope) { 
-    $scope.dragOptions = {
-        start: function(e) {
-          console.log("STARTING");
-        },
-        drag: function(e) {
-          console.log("DRAGGING");
-        },
-        stop: function(e) {
-          console.log("STOPPING");
-        },
-        container: 'container'
-    }
+}
 
-});
-*/
+app.controller('bcmsAdminWidgetSelector',['$scope','$http', '$log', bcmsAdminWidgetSelector]);

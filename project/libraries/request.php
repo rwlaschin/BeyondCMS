@@ -2,16 +2,17 @@
     // table format
     // { count : number, fields: [ <list of fields>], rows : [ { field: data, ... } ] }
     $root = $_SERVER['DOCUMENT_ROOT'];
-    $widgetDefinitionsPath = "$root/admin/widgets";
+    $widgetDefinitionsDir = "$root/admin/widgets";
+    $templatesDir = "$root/admin/templates";
     $debug = ( array_key_exists('debug', $_REQUEST) && $_REQUEST['debug'] == "1" );
 
     // generic request interface
     // permits pulling widget information
     // from the server
 
-    if( array_key_exists('widgets',$_REQUEST) ) {
+    if( array_key_exists('widgets',$_REQUEST) || empty(@$_REQUEST['widget']) ) {
         $list = array( 'fields' => array( 'widget' ), 'rows' => array() );
-        chdir($widgetDefinitionsPath);
+        chdir($widgetDefinitionsDir);
         $widgetDefinitions = glob("*.ddf", GLOB_BRACE);
         if( $debug ) {
             $list['debug'] 
@@ -31,7 +32,7 @@
     } else if ( array_key_exists('widget',$_REQUEST) ) {
         // load widget by name
         $list = array( 'fields' => array( 'definition' ), 'rows' => array(), 'errors' => array() );
-        chdir($widgetDefinitionsPath);
+        chdir($widgetDefinitionsDir);
         $widgetFilePaths = preg_split("/\s*,\s*/",$_REQUEST['widget']);
         if( $debug ) {
             $list['debug'] 
@@ -58,4 +59,7 @@
         header('Content-Type: application/json');
         echo json_encode( $list );
         exit;
+    } else if ( array_key_exists('template',$_REQUEST) && ! empty($_REQUEST['template']) ) {
+        $template = $_REQUEST['template'];
+        $templatesDir . "/{$template}.tpl";
     }
