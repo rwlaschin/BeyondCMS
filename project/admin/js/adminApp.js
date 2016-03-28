@@ -221,9 +221,14 @@ function bcmsAdminWidgetSelector($scope,$http,$log) {
         this.show[this.widgetPanelSelection] = true;
     };
 
-    function insertNewWidget(target,data) {
-        alert( response );
-
+    function insertNewWidget(element,template,data) {
+        function insertTemplate(key,value) {
+            console.info("Inserting new " + key);
+            var fragment = value.template;
+            $element.append(fragment);
+        }
+        var $element = angular.element(element);
+        $.each(data.rows, insertTemplate);
     };
 
     $scope.grabOptions = {
@@ -246,7 +251,7 @@ function bcmsAdminWidgetSelector($scope,$http,$log) {
             // compiling it.
             var dscope = dest.scope();
             $http.get('/libraries/request.php?template=' + def.widget )
-            .then(function(response){insertNewWidget.call(this,dest,def);},
+            .then(function(response){insertNewWidget(dest,def,response.data);},
                   function(response) {
                       console.error('Failed to make call to get widget list');
                   } );

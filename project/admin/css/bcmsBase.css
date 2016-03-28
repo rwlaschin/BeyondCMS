@@ -1,3 +1,12 @@
+/* http://www.computerhope.com/cgi-bin/htmlcolor.pl?c=25383C */
+
+
+/* This is a text transformation to make vertical text
+-moz-transform:rotate(-90deg);
+    -ms-transform:rotate(-90deg);
+    -o-transform:rotate(-90deg);
+    -webkit-transform:rotate(-90deg);*/
+
 body {
     height:100%;
     margin:0px;
@@ -29,7 +38,7 @@ body {
     border-color: silver;
 }
 
-div.admin-tools {
+div.admin-tools, div.admin-configuration-tools {
     /* keeps unit from taking any space */
     width:0px;
     height:0px;
@@ -41,8 +50,13 @@ div.admin-tools {
     user-select: none;
 }
 
-div.bcms-admin-toolbar {
-    position:fixed;
+div.admin-configuration-tools {
+    position: absolute;
+    left:1218px;
+}
+
+div.bcms-admin-toolbar, div.bcms-admin-settings-toolbar {
+    position:relative;
     color: white;
     padding:2px;
     overflow: hidden!important;
@@ -54,27 +68,48 @@ div.bcms-admin-toolbar {
     min-height:200px;
 }
 
+div.admin-configuration-tools div.bcms-admin-toolbar {
+    width:250px;
+}
+
+div.bcms-admin-settings-toolbar {
+
+}
+
 .bcms-selector-control {
     width:0px; height:0px;
 }
 
+/* ---------- Text Styles ---------- */
+/* ---------- Order Matters ---------- */
+
+input[type=text] {
+    border-radius: 4px 4px 4px 4px;
+    border: 1px solid #25383C;
+}
+
+/* ---------- Button Styles ---------- */
+/* ---------- Order Matters ---------- */
+
 input[type=button] {
-    border-radius: 10px 10px 10px 10px;
+    border-radius: 4px 4px 4px 4px;
+    border: 1px solid #25383C;
 }
 
 .bcms-horizontal-buttons input[type=button] {
-    border-radius: 0px;
+    border-radius: 0px 0px 0px 0px;
     display:inline-block;
 }
 
-.bcms-horizontal-buttons input[type=button] + input[type=button]:first-child {
-    border-radius-top-left: 10px;
-    border-radius-bottom-left: 10px;
+.bcms-horizontal-buttons input[type=button]:first-child {
+    border-radius: 4px 0px 0px 4px;
+    border-left: 1px solid #25383C;
 }
 
-.bcms-horizontal-buttons input[type=button] + input[type=button]:last-child {
-    border-radius-top-right: 10px;
-    border-radius-bottom-right: 10px;
+.bcms-horizontal-buttons input[type=button]:last-child {
+    border-radius: 0px 4px 4px 0px;
+    border: 1px solid #25383C;
+    border-right: none;
 }
 
 .bcms-vertical-buttons input[type=button] {
@@ -83,19 +118,23 @@ input[type=button] {
     width:100%;
 }
 
-.bcms-vertical-buttons input[type=button] + input[type=button]:first-child {
-    border-radius-top-left: 10px;
-    border-radius-top-right: 10px;
+.bcms-vertical-buttons input[type=button]:first-child {
+    border-radius: 4px 4px 0px 0px;
+    border: 1px solid #25383C;
+    border-top: none;
 }
 
-.bcms-vertical-buttons input[type=button] + input[type=button]:last-child {
-    border-radius-bottom-left: 10px;
-    border-radius-bottom-right: 10px;
+.bcms-vertical-buttons input[type=button]:last-child {
+    border-radius: 0px 0px 4px 4px;
+    border: 1px solid #25383C;
+    border-bottom: none;
 }
+
+/* ----- Button Styles ----- */
 
 .bcms-tab-panel {
     background-color: white;
-    width: 100%;
+    /*width: 100%;*/
 }
 
 .bcms-tab-panel-default {
@@ -107,7 +146,7 @@ input[type=button] {
 }
 
 .bcms-panel {
-    background-color: #162129;
+    background-color: #3D2A26;
     padding:1px 0px 0px 1px;
 }
 
@@ -119,15 +158,15 @@ input[type=button] {
 }
 
 .bcms-application {
-    background-color: tan;
-    border: 1px solid orange;
+    background-color: #ECE5B6;
+    border: 1px solid #9C9566;
     width: 1000px; height: 700px;
     position: absolute;
     left: 215px;
 }
 
 .bcms-highlight-drop-target {
-    background-color: purple;
+    background-color: #96679D;
 }
 
 #bcms_widget_placeholder_grab_object {
@@ -145,4 +184,12 @@ input[type=button] {
     -khtml-opacity: 0.5;
     -moz-opacity: 0.5;
     opacity: 0.5;
+}
+
+.bcms-panel .bcms-widget ..bcms-container-widget:hover {
+    border: 4px solid grey;
+}
+
+.bcms-admin .bcms-application ..bcms-container-widget:hover {
+    border: 1px dashed #B7EDC2;
 }

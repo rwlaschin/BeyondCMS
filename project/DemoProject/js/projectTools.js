@@ -1,18 +1,10 @@
 'use strict';
 
-// Allows things to work ;)
+// Create all application logic based on 
 function bcmsWidgetManager($scope,$http,$log) {
     bcmsBaseWidgetManager.call(this,$scope,$http,$log); // runs initialization for base class
 
-    // on click update the EditPanel
-    $scope.handleDisplayControls = new (function(){
-        this.initialize = function(scope) {
-            // call at the beginning off
-        };
-        this.registerEvents = function(scope) {
-
-        };
-    })();
+    // define variables and functions here.
 }
 bcmsWidgetManager.prototype = Object.create(bcmsBaseWidgetManager.prototype);
 app.controller('bcmsWidgetManager',['$scope','$http', '$log', bcmsWidgetManager ] );

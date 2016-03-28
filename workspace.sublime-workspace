@@ -4,6 +4,82 @@
 		"selected_items":
 		[
 			[
+				"curren",
+				"currentProjectSite"
+			],
+			[
+				"ob_",
+				"ob_clean()	standard Function"
+			],
+			[
+				"add",
+				"addClass"
+			],
+			[
+				"long",
+				"longEdgeX"
+			],
+			[
+				"lon",
+				"longEdgeY"
+			],
+			[
+				"pa",
+				"pageY"
+			],
+			[
+				"outer",
+				"outerHeight"
+			],
+			[
+				"doc",
+				"document"
+			],
+			[
+				"und",
+				"underMouse"
+			],
+			[
+				"pl",
+				"placeholder"
+			],
+			[
+				"p",
+				"placeholder"
+			],
+			[
+				"prepar",
+				"preparePlaceholder"
+			],
+			[
+				"new",
+				"newValue"
+			],
+			[
+				"def",
+				"definition"
+			],
+			[
+				"wi",
+				"widgetDefinitionsPath"
+			],
+			[
+				"de",
+				"definition"
+			],
+			[
+				"wid",
+				"widgets"
+			],
+			[
+				"preg_",
+				"preg_match"
+			],
+			[
+				"fot",
+				"font-size"
+			],
+			[
 				"div",
 				"divElement"
 			],
@@ -244,10 +320,6 @@
 				"analyticsEnabled"
 			],
 			[
-				"add",
-				"addComscoreBeacons"
-			],
-			[
 				"bea",
 				"beaconTags"
 			],
@@ -442,83 +514,160 @@
 			[
 				"adRequest",
 				"adRequestData"
-			],
-			[
-				"getPara",
-				"getRequestParam"
-			],
-			[
-				"list",
-				"listeners"
-			],
-			[
-				"lis",
-				"listenerObject"
-			],
-			[
-				"useR",
-				"useRs"
-			],
-			[
-				"syl",
-				"styles"
-			],
-			[
-				"getReq",
-				"getRequestParam"
-			],
-			[
-				"passback",
-				"passbackUrl"
-			],
-			[
-				"preg_replace",
-				"preg_replace_callback"
-			],
-			[
-				"plug",
-				"plugin"
-			],
-			[
-				"has",
-				"hasOwnProperty"
-			],
-			[
-				"Crea",
-				"createElement"
-			],
-			[
-				"inser",
-				"insertTag"
-			],
-			[
-				"_ryad",
-				"_ryadConfig"
-			],
-			[
-				"extra",
-				"extra_info"
-			],
-			[
-				"ada",
-				"adaptvAd"
-			],
-			[
-				"contextA",
-				"contextArray"
-			],
-			[
-				"url",
-				"urlencode"
-			],
-			[
-				"cont",
-				"contextArray"
 			]
 		]
 	},
 	"buffers":
 	[
+		{
+			"file": "/C/Windows/System32/drivers/etc/hosts",
+			"settings":
+			{
+				"buffer_size": 1512,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "Notes --\n. Query Object needs to be able to return the fields\n\n// On drag on widget in widgetbar\n// .. Use temporary widget to display semi-transparent widget, locked on mouse\n// .. . done\n// .. highlight top most container mouse is over\n// .. . done\n// . container\n// .. components\n// ... Title - holds actors in small icons\n// ... Body - visibility components\n// .. Admin Behavior\n// ... dropping places new widget into container or in title bar\n// ... left-click on 'non-container' will 'open' if tab, or menu\n// ... hovering over 'non-container' will 'open' if tab, or menu\n// .. Attributes\n// ... Position (this is for everything)\n// ... Size (this is for everything)\n// ... Show/Hide Actor (things that control if container should be hidden)\n// ... Rounded Top/Left/Right/Bottom/All/None\n// ... ",
+			"settings":
+			{
+				"buffer_size": 801,
+				"line_ending": "Windows",
+				"name": "Notes --"
+			}
+		},
+		{
+			"file": "/C/Users/robert.wlaschin/Desktop/mathSheetGenerator.html",
+			"settings":
+			{
+				"buffer_size": 7584,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "project/admin/templates/Container.tpl",
+			"settings":
+			{
+				"buffer_size": 203,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "project/README",
+			"settings":
+			{
+				"buffer_size": 344,
+				"line_ending": "Windows",
+				"name": "README"
+			}
+		},
+		{
+			"file": "project/admin/js/adminTools.js",
+			"settings":
+			{
+				"buffer_size": 605,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "project/admin/index.php",
+			"settings":
+			{
+				"buffer_size": 4054,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "project/admin/js/adminApp.js",
+			"settings":
+			{
+				"buffer_size": 10776,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/robert.wlaschin/Repositories/svn/ctg/tool-box/tools/configBuilder/default",
+			"settings":
+			{
+				"buffer_size": 3535,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Users/robert.wlaschin/Repositories/svn/ctg/tool-box/tools/configBuilder/configs/ryadsdev2a.config",
+			"settings":
+			{
+				"buffer_size": 189,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "'_defaultValues' array ( 'placement.54985' => array ( 'age' => '1005', 'appkey' => 'ry-zooworld2', 'categories' => 'ry-zooworld2-dotd-1', 'channel' => 'facebook.com', 'gender' => '2', 'tier' => 'srv1sf', 'vertical' => 'playzoo', ), 'placement.55026' => array ( 'age' => '1005', 'appkey' => 'ry-zooworldclassic', 'categories' => 'ry-zooworldclassic-dotd-1', 'channel' => 'facebook.com', 'gender' => '2', 'tier' => 'srv1sf', 'vertical' => 'zooworldclassic', ), 'placement.55030' => array ( 'age' => '1007', 'appkey' => 'gduell-bubblespeed', 'categories' => 'gduell-bubblespeed-dotd-1', 'channel' => 'facebook.com', 'gender' => '2', 'publisherdomain' => 'gameduell.com', 'tier' => 'srv1sf', ), 'placement.55033' => array ( 'age' => '1006', 'appkey' => 'gduell-bubblepopp', 'categories' => 'gduell-bubblepopp-dotd-1', 'channel' => 'facebook.com', 'gender' => '2', 'publisherdomain' => 'gameduell.com', 'tier' => 'srv1sf', ), 'placement.55035' => array ( 'age' => '1007', 'appkey' => 'gduell-junglejewelstemple', 'categories' => 'gduell-junglejewelstemple-dotd-1', 'channel' => 'facebook.com', 'gender' => '2', 'publisherdomain' => 'gameduell.com', 'tier' => 'srv1sf', ), 'placement.55036' => array ( 'age' => '1009', 'appkey' => 'gduell-solitaireharmony', 'categories' => 'gduell-solitaireharmony-dotd-1', 'channel' => 'facebook.com', 'gender' => '2', 'publisherdomain' => 'gameduell.com', 'tier' => 'srv1sf', ), 'placement.55037' => array ( 'age' => '1006', 'appkey' => 'gduell-cleopatraspyramid', 'categories' => 'gduell-cleopatraspyramid-dotd-1', 'channel' => 'facebook.com', 'gender' => '2', 'publisherdomain' => 'gameduell.com', 'tier' => 'srv1sf', ), 'placement.55038' => array ( 'age' => '1006', 'appkey' => 'gduell-dragonclick', 'categories' => 'gduell-dragonclick-dotd-1', 'channel' => 'facebook.com', 'gender' => '2', 'publisherdomain' => 'gameduell.com', 'tier' => 'srv1sf', ), 'placement.55039' => array ( 'age' => '1008', 'appkey' => 'gduell-fluffy', 'categories' => 'gduell-fluffy-dotd-1', 'channel' => 'facebook.com', 'gender' => '2', 'publisherdomain' => 'gameduell.com', 'tier' => 'srv1sf', ), 'placement.55040' => array ( 'age' => '1006', 'appkey' => 'gduell-mayapyramid', 'categories' => 'gduell-mayapyramid-dotd-1', 'channel' => 'facebook.com', 'gender' => '2', 'publisherdomain' => 'gameduell.com', 'tier' => 'srv1sf', ), 'placement.55041' => array ( 'age' => '1007', 'appkey' => 'gduell-junglejewels', 'categories' => 'gduell-junglejewels-dotd-1', 'channel' => 'facebook.com', 'gender' => '2', 'publisherdomain' => 'gameduell.com', 'tier' => 'srv1sf', ), 'placement.55043' => array ( 'age' => '1007', 'appkey' => 'gduell-junglejewelsflash', 'categories' => 'gduell-junglejewelsflash-dotd-1', 'channel' => 'facebook.com', 'gender' => '2', 'publisherdomain' => 'gameduell.com', 'tier' => 'srv1sf', ), 'placement.55158' => array ( 'age' => '1005', 'appkey' => 'ry-zooworldclassic', 'categories' => 'ry-zooworldclassic-intid-1', 'channel' => 'facebook.com', 'gender' => '2', 'tier' => 'srv1sf', 'vertical' => 'zooworldclassic', ), 'placement.55159' => array ( 'age' => '1005', 'appkey' => 'ry-zooworld2', 'categories' => 'ry-zooworld2-intid-1', 'channel' => 'facebook.com', 'gender' => '2', 'tier' => 'srv1sf', 'vertical' => 'playzoo', ), 'placement.55699' => array ( 'age' => '1005', 'appkey' => 'ry-zooworld2', 'categories' => 'ry-zooworld2-watch-1', 'channel' => 'female.rockyou.com', 'gender' => '2', 'tier' => 'srv1sf', 'type' => 'watchearn', 'vertical' => 'ry_zooworld2', ), 'placement.55812' => array ( 'age' => '1008', 'appkey' => 'gduell-mayawhiz', 'categories' => 'gduell-mayawhiz-dotd-1', 'channel' => 'facebook.com', 'gender' => '2', 'publisherdomain' => 'gameduell.com', 'tier' => 'srv1sf', ), 'placement.55965' => array ( 'age' => '1009', 'appkey' => 'ry-bingo', 'categories' => 'ry-bingo-dotd-1', 'channel' => 'facebook.com', 'gender' => '2', 'tier' => 'srv1sf', 'vertical' => 'bingobyryzing', ), 'placement.56302' => array ( 'age' => '1004', 'appkey' => 'frima-pocketgod', 'categories' => 'frima-pocketgod-dotd-1', 'channel' => 'male.rockyou.com', 'gender' => '1', 'publisherdomain' => 'frimastudiopocketgod.com', 'tier' => 'srv1sf', ), 'placement.56694' => array ( 'age' => '1009', 'appkey' => 'ry-bingo', 'categories' => 'ry-bingo-intid-1', 'channel' => 'facebook.com', 'gender' => '2', 'tier' => 'srv1sf', 'vertical' => 'bingobyryzing', ), 'placement.56897' => array ( 'age' => '1007', 'appkey' => 'ry-poker', 'categories' => 'ry-poker-dotd-1', 'channel' => 'male.rockyou.com', 'gender' => '1', 'tier' => 'srv1sf', 'vertical' => 'ry_poker', ), 'placement.56948' => array ( 'age' => '1006', 'appkey' => 'ry-millionairecity', 'categories' => 'ry-millionairecity-dotd-1', 'channel' => 'facebook.com', 'gender' => '1', 'tier' => 'srv1sf', 'vertical' => 'millionairecity', ), 'placement.56950' => array ( 'age' => '1006', 'appkey' => 'ry-zombielane', 'categories' => 'ry-zombielane-dotd-1', 'channel' => 'facebook.com', 'gender' => '1', 'tier' => 'srv1sf', 'vertical' => 'zombielane', ), 'placement.56951' => array ( 'age' => '1005', 'appkey' => 'ry-armyattack', 'categories' => 'ry-armyattack-dotd-1', 'channel' => 'facebook.com', 'gender' => '1', 'tier' => 'srv1sf', 'vertical' => 'armyattack', ), 'placement.57075' => array ( 'age' => '1005', 'appkey' => 'mallworld', 'categories' => 'mallworld-intid-1', 'channel' => 'facebook.com', 'gender' => '2', 'tier' => 'srv1sf', 'vertical' => 'mallworld', ), 'placement.57076' => array ( 'age' => '1004', 'appkey' => 'fashiondesigner', 'categories' => 'fashiondesigner-pre-int-1', 'channel' => 'facebook.com', 'gender' => '2', 'tier' => 'srv1sf', 'vertical' => 'fashiondesigner', ), 'placement.57385' => array ( 'age' => '1008', 'appkey' => 'ry-jackpotbingo', 'categories' => 'ry-jackpotbingo-dotd-1', 'channel' => 'female.rockyou.com', 'gender' => '2', 'tier' => 'srv1sf', ), 'placement.57478' => array ( 'age' => '1006', 'appkey' => 'pureplaypoker', 'categories' => 'ry-pureplaypoker-dotd-1', 'channel' => 'male.rockyou.com', 'gender' => '1', 'pageurl' => 'pureplay.com', 'pageurlov' => 'pureplay.com', 'platform' => 'web', 'publisherdomain' => 'pureplay.com', 'tier' => 'srv1sf', ), 'placement.57507' => array ( 'age' => '1010', 'appkey' => 'ry-zooworldclassic', 'categories' => 'ry-zooworldclassic-watch-1', 'gender' => '2', 'tier' => 'srv1sf', 'type' => 'watchearn', 'vertical' => 'ry_zooworldclassic', ), 'placement.57673' => array ( 'placement' => '57673-test', ), 'placement.57786' => array ( 'payout' => '0.01', 'rewardurl' => 'www.ultraadserver.com/api/v1/ultraCallback/9904/2cfc9675/9/1', ), 'placement.57939' => array ( 'age' => '1005', 'appkey' => 'ry-zooworldclassic', 'categories' => 'ry-zooworldclassic-int-friend', 'channel' => 'facebook.com', 'gender' => '2', 'tier' => 'srv1sf', 'vertical' => 'ry_zooworldclassic', ), 'placement.57963' => array ( 'age' => '1005', 'appkey' => 'ry-zooworld2', 'categories' => 'ry-zooworld2-int-friend', 'channel' => 'facebook.com', 'gender' => '2', 'tier' => 'srv1sf', 'vertical' => 'playzoo', ), 'placement.57968' => array ( 'age' => '1007', 'appkey' => 'ry-poker', 'categories' => 'ry-poker-intid-1', 'channel' => 'facebook.com', 'gender' => '1', 'tier' => 'srv1sf', 'vertical' => 'ry_poker', ), 'placement.57972' => array ( 'tier' => 'srv1sf', 'type' => 'watchearn', ), 'placement.58071' => array ( 'age' => '1008', 'appkey' => 'ry-jackpotbingo', 'categories' => 'ry-jackpotbingo-intid-1', 'channel' => 'female.rockyou.com', 'gender' => '2', 'tier' => 'srv1sf', ), 'placement.58072' => array ( 'age' => '1005', 'appkey' => 'mallworld', 'categories' => 'mallworld-pre-int-1', 'channel' => 'facebook.com', 'gender' => '2', 'tier' => 'srv1sf', 'vertical' => 'mallworld', ), 'placement.58073' => array ( 'age' => '1004', 'appkey' => 'fashiondesigner', 'categories' => 'fashiondesigner-int-1', 'channel' => 'facebook.com', 'gender' => '2', 'tier' => 'srv1sf', 'vertical' => 'fashiondesigner', ), 'placement.58084' => array ( 'age' => '1005', 'appkey' => 'mallworld', 'categories' => 'mallworld-dotd-tokens', 'channel' => 'facebook.com', 'gender' => '2', 'tier' => 'srv1sf', 'vertical' => 'mallworld', ), 'placement.58085' => array ( 'age' => '1005', 'appkey' => 'mallworld', 'categories' => 'mallworld-dotd-spins', 'channel' => 'facebook.com', 'gender' => '2', 'tier' => 'srv1sf', 'vertical' => 'mallworld', ), 'placement.58088' => array ( 'age' => '1005', 'appkey' => 'mallworld', 'categories' => 'mallworld-dotd-catalog', 'channel' => 'facebook.com', 'gender' => '2', 'tier' => 'srv1sf', 'vertical' => 'mallworld', ), 'placement.58089' => array ( 'age' => '1005', 'appkey' => 'mallworld', 'categories' => 'mallworld-dotd-voting', 'channel' => 'facebook.com', 'gender' => '2', 'tier' => 'srv1sf', 'vertical' => 'mallworld', ), 'placement.58090' => array ( 'age' => '1004', 'appkey' => 'fashiondesigner', 'categories' => 'fashiondesigner-dotd-tokens', 'channel' => 'facebook.com', 'gender' => '2', 'tier' => 'srv1sf', 'vertical' => 'fashiondesigner', ), 'placement.58091' => array ( 'age' => '1004', 'appkey' => 'fashiondesigner', 'categories' => 'fashiondesigner-dotd-spins', 'channel' => 'facebook.com', 'gender' => '2', 'tier' => 'srv1sf', 'vertical' => 'fashiondesigner', ), 'placement.58093' => array ( 'age' => '1004', 'appkey' => 'fashiondesigner', 'categories' => 'fashiondesigner-dotd-mannequin', 'channel' => 'facebook.com', 'gender' => '2', 'tier' => 'srv1sf', 'vertical' => 'fashiondesigner', ), 'placement.58101' => array ( 'age' => '1007', 'appkey' => 'ry-poker', 'categories' => 'ry-poker-dotd-slots1', 'channel' => 'facebook.com', 'gender' => '1', 'tier' => 'srv1sf', 'vertical' => 'ry_poker', ), 'placement.58102' => array ( 'age' => '1007', 'appkey' => 'ry-poker', 'categories' => 'ry-poker-dotd-slots2', 'channel' => 'male.rockyou.com', 'gender' => '1', 'tier' => 'srv1sf', 'vertical' => 'ry_poker', ), 'placement.58103' => array ( 'age' => '1007', 'appkey' => 'ry-poker', 'categories' => 'ry-poker-dotd-slots3', 'channel' => 'male.rockyou.com', 'gender' => '1', 'tier' => 'srv1sf', 'vertical' => 'ry_poker', ), 'placement.58130' => array ( 'age' => '1004', 'appkey' => 'fashiondesigner', 'categories' => 'fashiondesigner-int-2', 'channel' => 'facebook.com', 'gender' => '2', 'tier' => 'srv1sf', 'vertical' => 'fashiondesigner', ), 'placement.58131' => array ( 'age' => '1005', 'appkey' => 'mallworld', 'categories' => 'mallworld-int-1', 'channel' => 'facebook.com', 'gender' => '2', 'tier' => 'srv1sf', 'vertical' => 'mallworld', ), 'placement.58146' => array ( 'age' => '1006', 'categories' => 'ry-fashiondesigner-sendingio-dotd-1', 'channel' => 'female.rockyou.com', 'gender' => '2', 'publisherdomain' => 'sending.io', 'tier' => 'srv1sf', ), 'placement.58189' => array ( 'age' => '1005', 'appkey' => 'ry-armyattack', 'categories' => 'ry-armyattack-intid-1', 'channel' => 'facebook.com', 'gender' => '1', 'tier' => 'srv1sf', 'vertical' => 'armyattack', ), 'placement.58190' => array ( 'age' => '1006', 'appkey' => 'ry-zombielane', 'categories' => 'ry-zombielane-intid-1', 'channel' => 'facebook.com', 'gender' => '1', 'tier' => 'srv1sf', 'vertical' => 'zombielane', ), 'placement.58191' => array ( 'age' => '1006', 'appkey' => 'ry-millionairecity', 'categories' => 'ry-millionairecity-intid-1', 'channel' => 'facebook.com', 'gender' => '1', 'tier' => 'srv1sf', 'vertical' => 'millionairecity', ), 'placement.58192' => array ( 'age' => '1004', 'appkey' => 'ry-crazypenguinwars', 'categories' => 'ry-crazypenguinwars-intid-1', 'channel' => 'facebook.com', 'gender' => '1', 'tier' => 'srv1sf', 'vertical' => 'ry_crazypenguinwars', ), 'placement.58211' => array ( 'age' => '1004', 'appkey' => 'ry-crazypenguinwars', 'categories' => 'ry-crazypenguinwars-dotd-1', 'channel' => 'facebook.com', 'gender' => '1', 'tier' => 'srv1sf', 'vertical' => 'ry_crazypenguinwars', ), 'placement.58238' => array ( 'age' => '1008', 'appkey' => 'ry-jackpotbingospilgames', 'categories' => 'ry-jackpotbingospil-dotd-1', 'channel' => 'female.rockyou.com', 'gender' => '2', 'tier' => 'srv1sf', ), 'placement.58326' => array ( 'age' => '1005', 'appkey' => 'movieblitz', 'channel' => 'male.rockyou.com', 'gender' => '1', ), 'placement.58363' => array ( 'age' => '1009', 'appkey' => 'ry-bingo', 'categories' => 'ry-bingo-pre-int-1', 'channel' => 'facebook.com', 'gender' => '2', 'tier' => 'srv1sf', 'vertical' => 'bingobyryzing', ), 'placement.58364' => array ( 'age' => '1006', 'appkey' => 'ry-zombielane', 'categories' => 'ry-zombielane-pre-int-1', 'channel' => 'facebook.com', 'gender' => '1', 'tier' => 'srv1sf', 'vertical' => 'zombielane', ), 'placement.58365' => array ( 'age' => '1004', 'appkey' => 'ry-crazypenguinwars', 'categories' => 'ry-crazypenguinwars-pre-int-1', 'channel' => 'facebook.com', 'gender' => '1', 'tier' => 'srv1sf', 'vertical' => 'ry_crazypenguinwars', ), 'placement.58366' => array ( 'age' => '1005', 'appkey' => 'ry-armyattack', 'categories' => 'ry-armyattack-pre-int-1', 'channel' => 'facebook.com', 'gender' => '1', 'tier' => 'srv1sf', 'vertical' => 'armyattack', ), 'placement.58367' => array ( 'age' => '1006', 'appkey' => 'ry-millionairecity', 'categories' => 'ry-millionairecity-pre-int-1', 'channel' => 'facebook.com', 'gender' => '1', 'tier' => 'srv1sf', 'vertical' => 'millionairecity', ), 'placement.58368' => array ( 'age' => '1007', 'appkey' => 'ry-poker', 'categories' => 'ry-poker-pre-int-1', 'channel' => 'facebook.com', 'gender' => '1', 'tier' => 'srv1sf', 'vertical' => 'ry_poker', ), 'placement.58369' => array ( 'age' => '1005', 'appkey' => 'ry-zooworldclassic', 'categories' => 'ry-zooworldclassic-pre-int-1', 'channel' => 'facebook.com', 'gender' => '2', 'tier' => 'srv1sf', 'vertical' => 'zooworldclassic', ), 'placement.58370' => array ( 'age' => '1005', 'appkey' => 'ry-zooworld2', 'categories' => 'ry-zooworld2-pre-int-1', 'channel' => 'facebook.com', 'gender' => '1', 'tier' => 'srv1sf', 'vertical' => 'playzoo', ), 'placement.58371' => array ( 'age' => '1010', 'appkey' => 'ry-wordsofwonder', 'categories' => 'ry-wordsofwonder-pre-int-1', 'channel' => 'facebook.com', 'gender' => '2', 'tier' => 'srv1sf', 'vertical' => 'wordsofwonder', ), 'placement.58372' => array ( 'age' => '1010', 'appkey' => 'ry-wordsofwonder', 'categories' => 'ry-wordsofwonder-intid-1', 'channel' => 'facebook.com', 'gender' => '2', 'tier' => 'srv1sf', 'vertical' => 'wordsofwonder', ), 'placement.58373' => array ( 'age' => '1010', 'appkey' => 'ry-wordsofwonder', 'categories' => 'ry-wordsofwonder-post-int-1', 'channel' => 'facebook.com', 'gender' => '2', 'tier' => 'srv1sf', 'vertical' => 'wordsofwonder', ), 'placement.58374' => array ( 'age' => '1010', 'appkey' => 'ry-wordsofwonder', 'categories' => 'ry-wordsofwonder-earngold-dotd-1', 'channel' => 'facebook.com', 'gender' => '2', 'tier' => 'srv1sf', 'vertical' => 'wordsofwonder', ), 'placement.58375' => array ( 'age' => '1010', 'appkey' => 'ry-wordsofwonder', 'categories' => 'ry-wordsofwonder-staff-dotd-1', 'channel' => 'facebook.com', 'gender' => '2', 'tier' => 'srv1sf', 'vertical' => 'ry_wordsofwonder', ), 'placement.58376' => array ( 'age' => '1010', 'appkey' => 'ry-wordsofwonder', 'categories' => 'ry-wordsofwonder-earnboost-dotd-1', 'channel' => 'facebook.com', 'gender' => '2', 'tier' => 'srv1sf', 'vertical' => 'ry_wordsofwonder', ), 'placement.58377' => array ( 'age' => '1010', 'appkey' => 'ry-wordsofwonder', 'categories' => 'ry-wordsofwonder-earnenergy-dotd-1', 'channel' => 'facebook.com', 'gender' => '2', 'tier' => 'srv1sf', 'vertical' => 'ry_wordsofwonder', ), 'placement.58379' => array ( 'age' => '1008', 'appkey' => 'ry-gardensoftime', 'categories' => 'ry-gardensoftime-pre-int-1', 'channel' => 'facebook.com', 'gender' => '2', 'tier' => 'srv1sf', 'vertical' => 'gardensoftime', ), 'placement.58380' => array ( 'age' => '1006', 'appkey' => 'ry-citygirl', 'categories' => 'ry-citygirl-pre-int-1', 'channel' => 'facebook.com', 'gender' => '2', 'tier' => 'srv1sf', 'vertical' => 'citygirllife', ), 'placement.58382' => array ( 'age' => '1008', 'appkey' => 'ry-gardensoftime', 'categories' => 'ry-gardensoftime-intid-1', 'channel' => 'facebook.com', 'gender' => '2', 'tier' => 'srv1sf', 'vertical' => 'gardensoftime', ), 'placement.58383' => array ( 'age' => '1008', 'appkey' => 'ry-gardensoftime', 'categories' => 'ry-gardensoftime-dotd-1', 'channel' => 'facebook.com', 'gender' => '2', 'tier' => 'srv1sf', 'vertical' => 'gardensoftime', ), 'placement.58403' => array ( 'age' => '1006', 'appkey' => 'bubbleorigins', 'categories' => 'renatus-bubbleorigins-dotd-1', 'channel' => 'female.rockyou.com', 'gender' => '2', 'publisherdomain' => 'renatus.com', 'tier' => 'srv1sf', ), 'placement.58404' => array ( 'age' => '1006', 'appkey' => 'bubblepiratequest', 'categories' => 'renatus-bubblepiratequest-dotd-1', 'channel' => 'female.rockyou.com', 'gender' => '2', 'publisherdomain' => 'renatus.com', 'tier' => 'srv1sf', ), 'placement.58405' => array ( 'age' => '1006', 'appkey' => 'bubblemagic3d', 'categories' => 'renatus-bubblemagic3d-dotd-1', 'channel' => 'female.rockyou.com', 'gender' => '2', 'publisherdomain' => 'renatus.com', 'tier' => 'srv1sf', ), 'placement.58408' => array ( 'blahblah' => 'hehe', 'gender' => '2', 'spacing name key test' => 'test with space', 'testparamlist' => 'test1', 'testparampairs' => '1', ), 'placement.58409' => array ( 'age' => '1005', 'appdomainov' => 'facebook.com', 'appdomainurl' => 'facebook.com', 'appkey' => 'ry-fashiondesigner', 'categories' => 'ry-fashiondesigner-pre-int-1', 'gender' => '2', 'platform' => 'facebook', 'publisherdomain' => 'rockyou.com', ), 'placement.58410' => array ( 'age' => '1006', 'appkey' => 'bubbleorigins', 'categories' => 'renatus-bubbleorigins-int-1', 'channel' => 'female.rockyou.com', 'gender' => '2', 'publisherdomain' => 'renatus.com', 'tier' => 'srv1sf', ), 'placement.58411' => array ( 'age' => '1006', 'appkey' => 'bubblepiratequest', 'categories' => 'renatus-bubblepiratequest-int-1', 'channel' => 'female.rockyou.com', 'gender' => '2', 'publisherdomain' => 'renatus.com', 'tier' => 'srv1sf', ), 'placement.58412' => array ( 'age' => '1006', 'appkey' => 'bubblemagic3d', 'categories' => 'renatus-bubblemagic3d-int-1', 'channel' => 'female.rockyou.com', 'gender' => '2', 'publisherdomain' => 'renatus.com', 'tier' => 'srv1sf', ), 'placement.58428' => array ( 'age' => '1006', 'appkey' => 'ry-citygirl', 'categories' => 'ry-citygirl-intid-1', 'channel' => 'facebook.com', 'gender' => '2', 'tier' => 'srv1sf', 'vertical' => 'citygirllife', ), 'placement.58429' => array ( 'age' => '1006', 'appkey' => 'ry-citygirl', 'categories' => 'ry-citygirl-cafepostvisit-int-1', 'channel' => 'facebook.com', 'gender' => '2', 'tier' => 'srv1sf', 'vertical' => 'citygirllife', ), 'placement.58430' => array ( 'age' => '1006', 'appkey' => 'ry-citygirl', 'categories' => 'ry-citygirl-dotd-1', 'channel' => 'facebook.com', 'gender' => '2', 'tier' => 'srv1sf', 'vertical' => 'citygirllife', ), 'placement.58432' => array ( 'age' => '1007', 'appkey' => 'ry-blingobingo', 'categories' => 'ry-blingobingo-pre-int-1', 'channel' => 'facebook.com', 'gender' => '2', 'spotxpub' => '103379', 'tier' => 'srv1sf', 'vertical' => 'bingoblingo', ), 'placement.58433' => array ( 'age' => '1007', 'appkey' => 'ry-blingobingo', 'categories' => 'ry-blingobingo-int-postround', 'channel' => 'facebook.com', 'gender' => '2', 'spotxpub' => '103379', 'tier' => 'srv1sf', 'vertical' => 'bingoblingo', ), 'placement.58435' => array ( 'age' => '1007', 'appkey' => 'ry-poker', 'categories' => 'ry-poker-intid-LR', 'channel' => 'male.rockyou.com', 'gender' => '1', 'subplace' => 'LRIMA', 'tier' => 'srv1sf', ), 'placement.58445' => array ( 'age' => '1005', 'mute' => '1', 'passbacklimit' => '5', ), 'placement.58447' => array ( 'age' => '1006', 'appkey' => 'sendingio', 'categories' => 'fashiondesigner-sendingio-int-1', 'channel' => 'female.rockyou.com', 'gender' => '2', 'publisherdomain' => 'sending.io', 'tier' => 'srv1sf', ), 'placement.58455' => array ( 'age' => '1007', 'appkey' => 'ry-blingobingo', 'categories' => 'ry-blingobingo-dotd-1', 'channel' => 'facebook.com', 'gender' => '2', 'spotxpub' => '103379', 'tier' => 'srv1sf', 'vertical' => 'bingoblingo', ), 'placement.58459' => array ( 'age' => '1009', 'appkey' => 'ry-bingo', 'categories' => 'ry-bingo-dotd-IMA', 'channel' => 'female.rockyou.com', 'gender' => '2', 'tier' => 'srv1sf', ), 'placement.58462' => array ( 'age' => '1006', 'appkey' => 'ry-bingo', 'categories' => 'ry-bingo-intid-LRIMAPlayer0EC3758462', 'channel' => 'female.rockyou.com', 'gender' => '2', 'subplace' => 'LRIMA3', 'tier' => 'srv1sf', ), 'placement.58464' => array ( 'age' => '1006', 'appkey' => 'ry-bingo', 'categories' => 'ry-bingo-intid-1', 'channel' => 'female.rockyou.com', 'gender' => '2', 'subplace' => 'LRIMA3', 'tier' => 'srv1sf', 'vertical' => 'ry_bingo', ), 'placement.58466' => array ( 'watchdogtimerdefault' => '10', ), 'placement.58467' => array ( 'age' => '1006', 'categories' => 'gamesx-guitarflash-int-1', 'channel' => 'male.rockyou.com', 'gender' => '1', 'publisherdomain' => 'guitarflash.com', 'tier' => 'srv1sf', ), 'placement.58470' => array ( 'age' => '1006', 'appkey' => 'ry-citygirl', 'categories' => 'ry-citygirl-dotd-2', 'channel' => 'facebook.com', 'gender' => '2', 'tier' => 'srv1sf', 'vertical' => 'ry_citygirl', ), 'placement.58473' => array ( 'age' => '1006', 'appkey' => 'seasidehideaway', 'categories' => 'hitpoint-seasidehideaway-dotd-1', 'channel' => 'female.rockyou.com', 'gender' => '2', 'pageurl' => 'facebook.com', 'publisherdomain' => 'hitpoint.com', 'tier' => 'srv1sf', ), 'placement.58481' => array ( 'age' => '1006', 'appkey' => 'ry-bingo', 'categories' => 'ry-bingo-int-jw6test', 'channel' => 'female.rockyou.com', 'gender' => '2', 'tier' => 'srv1sf', 'vertical' => 'ry_bingo', ), 'placement.58491' => array ( 'age' => '1006', 'appkey' => 'cafrinopoker', 'categories' => 'cafrinopoker-vast-int-1', 'channel' => 'male.rockyou.com', 'gender' => '1', 'pageurl' => 'cafrino.com', 'pageurlov' => 'cafrino.com', 'publisherdomain' => 'cafrino.com', 'tier' => 'srv1sf', ), 'placement.58519' => array ( 'age' => '1007', 'appkey' => 'ry-blingobingo', 'categories' => 'ry-blingobingo-intid-1', 'channel' => 'facebook.com', 'gender' => '2', 'spotxpub' => '103379', 'tier' => 'srv1sf', 'vertical' => 'bingoblingo', ), 'placement.58541' => array ( 'age' => '1006', 'appkey' => 'megazebra', 'categories' => 'megazebra-mahjong-int-1', 'channel' => 'female.rockyou.com', 'gender' => '2', 'publisherdomain' => 'megazebra.com', 'tier' => 'srv1sf', ), 'placement.58546' => array ( 'age' => '1007', 'appkey' => 'ry-kitchenscramble', 'categories' => 'ry-kitchenscramble-int-1', 'channel' => 'facebook.com', 'gender' => '2', 'spotxpub' => '103328', 'tier' => 'srv1sf', 'vertical' => 'kitchenscramble', ), 'placement.58547' => array ( 'age' => '1007', 'appkey' => 'ry-kitchenscramble', 'categories' => 'ry-kitchenscramble-intid-1', 'channel' => 'facebook.com', 'gender' => '2', 'publisherdomain' => 'rockyou.com', 'spotxpub' => '103328', 'tier' => 'srv1sf', 'vertical' => 'kitchenscramble', ), 'placement.58548' => array ( 'age' => '1007', 'appkey' => 'ry-kitchenscramble', 'categories' => 'ry-kitchenscramble-pre-int-1', 'channel' => 'facebook.com', 'gender' => '2', 'spotxpub' => '103328', 'tier' => 'srv1sf', 'vertical' => 'kitchenscramble', ), 'placement.58582' => array ( 'age' => '1006', 'appkey' => 'sendingio', 'categories' => 'sendingio-3P-int-1', 'channel' => 'female.rockyou.com', 'gender' => '2', 'publisherdomain' => 'sending.io', 'tier' => 'srv1sf', ), 'placement.58584' => array ( 'age' => '1006', 'appkey' => 'voyagetofantasy', 'categories' => 'ouat-voyagetofantasy-int-1', 'channel' => 'facebook.com', 'gender' => '2', 'publisherdomain' => 'voyagetofantasy.com', 'tier' => 'srv1sf', ), 'placement.58586' => array ( 'age' => '1006', 'appkey' => 'ry-citygirl', 'categories' => 'ry-citygirl-cafeprevisit-int-1', 'channel' => 'facebook.com', 'gender' => '2', 'tier' => 'srv1sf', ), 'placement.58591' => array ( 'age' => '1006', 'appkey' => 'zyngaint', 'categories' => 'zynga-castleville-int-1', 'channel' => 'facebook.com', 'gender' => '2', 'publisherdomain' => 'facebook.com', 'tier' => 'srv1sf', ), 'placement.58597' => array ( 'age' => '1006', 'appkey' => 'thx4games', 'categories' => 'thx4games-letraland-int-1', 'channel' => 'female.rockyou.com', 'gender' => '2', 'publisherdomain' => 'letraland.com', 'tier' => 'srv1sf', ), 'placement.58600' => array ( 'age' => '1006', 'appkey' => 'poollivetour', 'categories' => 'boomware-poollivetour-int-1', 'channel' => 'female.rockyou.com', 'gender' => '2', 'tier' => 'srv1sf', ), 'placement.58601' => array ( 'age' => '1006', 'appkey' => 'poollivetour', 'categories' => 'boomware-poollivetour-dotd-1', 'channel' => 'female.rockyou.com', 'gender' => '2', 'tier' => 'srv1sf', ), 'placement.58602' => array ( 'age' => '1006', 'appkey' => 'zyngaint', 'categories' => 'zynga-wordswithfriends-int-1', 'channel' => 'facebook.com', 'gender' => '2', 'publisherdomain' => 'facebook.com', 'tier' => 'srv1sf', ), 'placement.58603' => array ( 'age' => '1007', 'appkey' => 'ry-blingobingo', 'categories' => 'ry-blingobingo-dotd-2', 'channel' => 'facebook.com', 'gender' => '2', 'tier' => 'srv1sf', 'vertical' => 'ry_blingobingo', ), 'placement.58627' => array ( 'age' => '1007', 'appkey' => 'petcity', 'categories' => 'catalyst-petcity-dotd-1', 'channel' => 'female.rockyou.com', 'gender' => '2', 'publisherdomain' => 'facebook.com', 'tier' => 'srv1sf', ), 'placement.58628' => array ( 'age' => '1006', 'appkey' => 'playsino', 'categories' => 'playsino-bingoworld-int-1', 'channel' => 'female.rockyou.com', 'gender' => '2', 'publisherdomain' => 'facebook.com', 'tier' => 'srv1sf', ), 'placement.58629' => array ( 'age' => '1006', 'appkey' => 'playsino', 'categories' => 'playsino-bingousa-int-1', 'channel' => 'facebook.com', 'gender' => '2', 'publisherdomain' => 'facebook.com', 'tier' => 'srv1sf', ), 'placement.58630' => array ( 'age' => '1006', 'appkey' => 'playsino', 'categories' => 'playsino-solitaire-int-1', 'channel' => 'facebook.com', 'gender' => '2', 'publisherdomain' => 'facebook.com', 'tier' => 'srv1sf', ), 'placement.58655' => array ( 'age' => '1006', 'appkey' => 'zyngaint', 'categories' => 'TESTPAGE', 'channel' => 'female.rockyou.com', 'gender' => '2', 'publisherdomain' => 'facebook.com', 'tier' => 'srv1sf', ), 'placement.58664' => array ( 'age' => '1005', 'appkey' => 'ry-zooworldclassic', 'categories' => 'ry-zooworldclassic-post-int-1', 'channel' => 'facebook.com', 'gender' => '2', 'tier' => 'srv1sf', 'vertical' => 'zooworldclassic', ), 'placement.58665' => array ( 'age' => '1006', 'appkey' => 'zyngaint', 'categories' => 'zynga-wordswithfriends-int-1', 'channel' => 'female.rockyou.com', 'gender' => '2', 'publisherdomain' => 'facebook.com', 'tier' => 'srv1sf', ), 'placement.58666' => array ( 'age' => '1006', 'appkey' => 'kingsisle', 'categories' => 'kingsisle-pirate-dotd-1', 'channel' => 'female.rockyou.com', 'gender' => '2', 'publisherdomain' => 'kingsisle.com', 'tier' => 'srv1sf', ), 'placement.58667' => array ( 'age' => '1006', 'appkey' => 'kingsisle', 'categories' => 'kingsisle-wizard-dotd-1', 'channel' => 'female.rockyou.com', 'gender' => '2', 'publisherdomain' => 'kingsisle.com', 'tier' => 'srv1sf', ), 'placement.58670' => array ( 'age' => '1006', 'appkey' => 'bonanza', 'categories' => 'bonanza-bingohome-int-1', 'channel' => 'female.rockyou.com', 'gender' => '2', 'publisherdomain' => 'facebook.com', 'tier' => 'srv1sf', ), 'placement.58681' => array ( 'age' => '1007', 'appkey' => 'frvrsolitaire', 'categories' => 'frvr-solitaire-int-1', 'channel' => 'female.rockyou.com', 'gender' => '2', 'publisherdomain' => 'frvrsolitaire.com', 'tier' => 'srv1sf', ), 'placement.58688' => array ( 'age' => '1007', 'appkey' => 'ry-kitchenscramble', 'categories' => 'ry-kitchenscramble-dotd-1', 'channel' => 'facebook.com', 'gender' => '2', 'publisherdomain' => 'rockyou.com', 'spotxpub' => '103328', 'tier' => 'srv1sf', 'vertical' => 'kitchenscramble', ), 'placement.58708' => array ( 'age' => '1005', 'appkey' => 'ry-dragonsofatlantis', 'categories' => 'ry-dragonsofatlantis-intid-1', 'channel' => 'facebook.com', 'gender' => '1', 'tier' => 'srv1sf', 'vertical' => 'dragonsofatlantis', ), 'placement.58721' => array ( 'age' => '1006', 'appkey' => 'thronerush', 'categories' => 'nexters-thronerush-dotd-1', 'channel' => 'female.rockyou.com', 'gender' => '2', 'publisherdomain' => 'facebook.com', 'tier' => 'srv1sf', ), 'placement.58729' => array ( 'age' => '1007', 'appkey' => 'ry-solitaire3', 'categories' => 'ry-solitaire3-intid-1', 'channel' => 'facebook.com', 'gender' => '2', 'tier' => 'srv1sf', 'vertical' => 'solitairethreearena', ), 'placement.58731' => array ( 'age' => '1007', 'appkey' => 'ry-luckyslots', 'categories' => 'ry-luckyslots-intid-1', 'channel' => 'facebook.com', 'gender' => '2', 'spotxpub' => '120980', 'tier' => 'srv1sf', 'vertical' => 'luckyslotsgame', ), 'placement.58732' => array ( 'age' => '1007', 'appkey' => 'ry-solitairearena', 'categories' => 'ry-solitairearena-intid-1', 'channel' => 'facebook.com', 'gender' => '2', 'tier' => 'srv1sf', 'vertical' => 'solitairearena', ), 'placement.58739' => array ( 'age' => '1007', 'appkey' => 'ry-solitaire3', 'categories' => 'ry-solitaire3-pre-int-1', 'channel' => 'facebook.com', 'gender' => '2', 'tier' => 'srv1sf', 'vertical' => 'solitairethreearena', ), 'placement.58740' => array ( 'age' => '1006', 'appkey' => 'ry-solitairearena', 'categories' => 'ry-solitairearena-pre-int-1', 'channel' => 'facebook.com', 'gender' => '2', 'tier' => 'srv1sf', 'vertical' => 'solitairearena', ), 'placement.58741' => array ( 'age' => '1006', 'appkey' => 'miniclip', 'categories' => 'miniclip-8ballpool-dotd-1', 'channel' => 'facebook.com', 'gender' => '2', 'pageurl' => 'facebook.com', 'publisherdomain' => 'miniclip.com', 'tier' => 'srv1sf', ), 'placement.58753' => array ( 'age' => '1006', 'appkey' => 'ry-kingdomsofcamelot', 'categories' => 'ry-kingdomsofcamelot-intid-1', 'channel' => 'facebook.com', 'gender' => '1', 'spotxpub' => '120983', 'tier' => 'srv1sf', 'vertical' => 'kingdomsofcamelot', ), 'placement.58754' => array ( 'age' => '1006', 'appkey' => 'mysterysociety', 'categories' => 'rolltower-mysterysociety-dotd-1', 'channel' => 'facebook.com', 'gender' => '2', 'pageurl' => 'facebook.com', 'publisherdomain' => 'rolltower.com', 'tier' => 'srv1sf', ), 'placement.58755' => array ( 'age' => '1006', 'appkey' => 'mysterysociety', 'categories' => 'rolltower-mysterysociety-int-1', 'channel' => 'facebook.com', 'gender' => '2', 'pageurl' => 'facebook.com', 'publisherdomain' => 'rolltower.com', 'tier' => 'srv1sf', ), 'placement.58757' => array ( 'age' => '1006', 'appkey' => 'ry-godfather', 'categories' => 'ry-godfather-intid-1', 'channel' => 'facebook.com', 'gender' => '1', 'tier' => 'srv1sf', 'vertical' => 'play_godfather', ), 'placement.58760' => array ( 'age' => '1006', 'appkey' => 'jellycs', 'categories' => 'jellycs-rongames-int-1', 'channel' => 'female.rockyou.com', 'gender' => '2', 'pageurl' => 'jellycs.com', 'platform' => 'web', 'publisherdomain' => 'jellycs.com', 'tier' => 'srv2rw', ), 'placement.58761' => array ( 'age' => '1006', 'appkey' => 'secretbuilders', 'categories' => 'renaissance-secretbuilders-dotd-1', 'channel' => 'facebook.com', 'gender' => '2', 'pageurl' => 'facebook.com', 'platform' => 'facebook', 'publisherdomain' => 'secretbuilders.com', 'tier' => 'srv1sf', ), 'placement.58773' => array ( 'age' => '1007', 'appkey' => 'ry-luckyslots', 'categories' => 'ry-luckyslots-pre-int-1', 'channel' => 'facebook.com', 'gender' => '2', 'spotxpub' => '120980', 'tier' => 'srv1sf', 'vertical' => 'luckyslotsgame', ), 'placement.58776' => array ( 'age' => '1005', 'appkey' => 'ry-dragonsofatlantis', 'categories' => 'ry-dragonsofatlantis-dotd-1', 'channel' => 'facebook.com', 'gender' => '1', 'tier' => 'srv1sf', 'vertical' => 'dragonsofatlantis', ), 'placement.58777' => array ( 'age' => '1007', 'appkey' => 'ry-luckyslots', 'categories' => 'ry-luckyslots-dotd-1', 'channel' => 'facebook.com', 'gender' => '2', 'spotxpub' => '120980', 'tier' => 'srv1sf', 'vertical' => 'luckyslotsgame', ), 'placement.58778' => array ( 'age' => '1006', 'appkey' => 'goodgame', 'categories' => 'goodgame-bigfarm-dotd-1', 'channel' => 'female.rockyou.com', 'gender' => '2', 'pageurl' => 'goodgamestudios.com', 'platform' => 'web', 'publisherdomain' => 'goodgamestudios.com', 'tier' => 'srv1sf', ), 'placement.58780' => array ( 'age' => '1006', 'appkey' => 'kanoapps', 'categories' => 'kanoapps-freerider-int-1', 'channel' => 'facebook.com', 'gender' => '1', 'pageurl' => 'facebook.com', 'platform' => 'facebook', 'publisherdomain' => 'kanoapps.com', 'tier' => 'srv1sf', ), 'placement.58785' => array ( 'age' => '1006', 'appkey' => 'kingsisle', 'categories' => 'kingsisle-12under-dotd-1', 'channel' => 'female.rockyou.com', 'gender' => '2', 'publisherdomain' => 'kingsisle.com', 'tier' => 'srv1sf', ), 'placement.58798' => array ( 'age' => '1006', 'appkey' => 'ry-pureplaypoker', 'categories' => 'ry-pureplaypoker-intid-1', 'channel' => 'facebook.com', 'gender' => '1', 'tier' => 'srv1sf', ), 'placement.58799' => array ( 'age' => '1006', 'appkey' => 'ry-pureplaypoker', 'categories' => 'ry-pureplaypoker-pre-int-1', 'channel' => 'facebook.com', 'gender' => '1', 'tier' => 'srv1sf', ), 'placement.58800' => array ( 'age' => '1007', 'appkey' => 'ry-solitaire3', 'categories' => 'ry-solitaire3-dotd-1', 'channel' => 'facebook.com', 'gender' => '2', 'tier' => 'srv1sf', 'vertical' => 'solitairethreearena', ), 'placement.58801' => array ( 'age' => '1007', 'appkey' => 'ry-solitairearena', 'categories' => 'ry-solitairearena-dotd-1', 'channel' => 'facebook.com', 'gender' => '2', 'tier' => 'srv1sf', 'vertical' => 'solitairearena', ), 'placement.58803' => array ( 'age' => '1006', 'appkey' => 'kanoapps', 'categories' => 'kanoapps-freerider-dotd-1', 'channel' => 'female.rockyou.com', 'gender' => '1', 'pageurl' => 'freeriderhd.com', 'publisherdomain' => 'freeriderhd.com', 'tier' => 'srv1sf', ), 'placement.58810' => array ( 'enableadcache' => 'enable', ), 'placement.58811' => array ( 'enableadcache' => 'enable', ), 'placement.58812' => array ( 'enableadcache' => 'enable', ), 'placement.58813' => array ( 'enableadcache' => 'enable', ), 'placement.58821' => array ( 'age' => '1006', 'appkey' => 'gamestopmedia', 'categories' => 'gamestop-kongregate-dotd-1', 'channel' => 'female.rockyou.com', 'gender' => '1', 'pageurl' => 'kongregate.com', 'platform' => 'web', 'publisherdomain' => 'kongregate.com', 'tier' => 'srv1sf', ), 'placement.58825' => array ( 'age' => '1006', 'appkey' => 'prettysimple', 'categories' => 'prettysimple-criminalcase-dotd-1', 'channel' => 'facebook.com', 'gender' => '2', 'pageurl' => 'facebook.com', 'platform' => 'facebook', 'publisherdomain' => 'prettysimple.com', 'tier' => 'srv1sf', ), 'placement.58826' => array ( 'age' => '1006', 'appkey' => '4enjoy', 'categories' => '4enjoy-triviafacts-int-1', 'channel' => 'facebook.com', 'gender' => '3', 'pageurl' => 'facebook.com', 'platform' => 'facebook', 'publisherdomain' => '4enjoy.com', 'tier' => 'srv1sf', ), 'placement.58827' => array ( 'age' => '1006', 'appkey' => '4enjoy', 'categories' => '4enjoy-triviamovietf-int-1', 'channel' => 'facebook.com', 'gender' => '3', 'pageurl' => 'facebook.com', 'platform' => 'facebook', 'publisherdomain' => '4enjoy.com', 'tier' => 'srv1sf', ), 'placement.58828' => array ( 'age' => '1006', 'appkey' => '4enjoy', 'categories' => '4enjoy-triviamovie-int-1', 'channel' => 'facebook.com', 'gender' => '3', 'pageurl' => 'facebook.com', 'platform' => 'facebook', 'publisherdomain' => '4enjoy.com', 'tier' => 'srv1sf', ), 'placement.58838' => array ( 'age' => '1006', 'appkey' => 'scopelyint', 'categories' => 'scopely-dicewithbuds-int-1', 'channel' => 'facebook.com', 'gender' => '2', 'pageurl' => 'facebook.com', 'platform' => 'facebook', 'publisherdomain' => 'scopely.com', 'tier' => 'srv1sf', ), 'placement.58839' => array ( 'age' => '1006', 'appkey' => 'scopelyint', 'categories' => 'scopely-yahtzeewithbuds-int-1', 'channel' => 'facebook.com', 'gender' => '2', 'pageurl' => 'facebook.com', 'platform' => 'facebook', 'publisherdomain' => 'scopely.com', 'tier' => 'srv1sf', ), 'placement.58840' => array ( 'age' => '1006', 'appkey' => '4enjoy', 'categories' => '4enjoy-crackfact-int-1', 'channel' => 'facebook.com', 'gender' => '3', 'pageurl' => 'facebook.com', 'platform' => 'facebook', 'tier' => 'srv1sf', ), 'placement.58841' => array ( 'age' => '1006', 'appkey' => '4enjoy', 'categories' => '4enjoy-guessmovie-int-1', 'channel' => 'facebook.com', 'gender' => '3', 'pageurl' => 'facebook.com', 'platform' => 'facebook', 'tier' => 'srv1sf', ), 'placement.58849' => array ( 'age' => '1007', 'appkey' => 'mavenhut', 'categories' => 'mavenhut-solitairelive-int-1', 'channel' => 'facebook.com', 'gender' => '3', 'pageurl' => 'facebook.com', 'platform' => 'facebook', 'publisherdomain' => 'mavenhut.com', 'tier' => 'srv1sf', ), 'placement.58850' => array ( 'age' => '1007', 'appkey' => 'mavenhut', 'categories' => 'mavenhut-solitairelive-intid-1', 'channel' => 'facebook.com', 'gender' => '3', 'pageurl' => 'facebook.com', 'platform' => 'facebook', 'publisherdomain' => 'mavenhut.com', 'tier' => 'srv1sf', ), 'placement.58851' => array ( 'age' => '1007', 'appkey' => 'mavenhut', 'categories' => 'mavenhut-solitairelive-dotd-1', 'channel' => 'facebook.com', 'gender' => '3', 'pageurl' => 'facebook.com', 'platform' => 'facebook', 'publisherdomain' => 'mavenhut.com', 'tier' => 'srv1sf', ), 'placement.58853' => array ( 'age' => '1006', 'appkey' => 'scopelyint', 'categories' => 'scopely-dicewithbuds-pre-1', 'channel' => 'facebook.com', 'gender' => '2', 'pageurl' => 'facebook.com', 'platform' => 'facebook', 'publisherdomain' => 'scopely.com', 'tier' => 'srv1sf', ), 'placement.58854' => array ( 'age' => '1006', 'appkey' => 'scopelyint', 'categories' => 'scopely-yahtzeewithbuds-pre-1', 'channel' => 'facebook.com', 'gender' => '2', 'pageurl' => 'facebook.com', 'platform' => 'facebook', 'publisherdomain' => 'scopely.com', 'tier' => 'srv1sf', ), 'placement.58856' => array ( 'age' => '1006', 'appkey' => 'mavenhut', 'categories' => 'mavenhut-solitaireknockout-int-1', 'channel' => 'facebook.com', 'gender' => '3', 'pageurl' => 'facebook.com', 'platform' => 'facebook', 'publisherdomain' => 'mavenhut.com', 'tier' => 'srv1sf', ), 'placement.58857' => array ( 'age' => '1006', 'appkey' => 'mavenhut', 'categories' => 'mavenhut-solitaireknockout-intid-1', 'channel' => 'facebook.com', 'gender' => '3', 'pageurl' => 'facebook.com', 'platform' => 'facebook', 'publisherdomain' => 'mavenhut.com', 'tier' => 'srv1sf', ), 'placement.58858' => array ( 'age' => '1006', 'appkey' => 'mavenhut', 'categories' => 'mavenhut-solitaireknockout-dotd-1', 'channel' => 'facebook.com', 'gender' => '3', 'pageurl' => 'facebook.com', 'platform' => 'facebook', 'publisherdomain' => 'mavenhut.com', 'tier' => 'srv1sf', ), ) '_converters' array ( 'AGE' => '// <?php $cur = date(\"Y\"); if( array_key_exists(\\'byear\\', $userData)) { $age = ($cur - $userData[\\'byear\\']); if( array_key_exists(\\'bday\\', $userData) ) { $b = ltrim($userData[\\'bday\\'],\"0\"); // mmddyyyy $cur = ltrim(date(\"md\"),\"0\"); if( $b > $cur ) { // not my birthday yet $age -= 1; // add one } } if( is_numeric($age) ) { foreach( $values as $range => $value ) { $matched = false; if( $range[0] == \"+\" ) { $matched = ltrim($range,\"+\") <= $age; } else if ( $range != \"default\" ){ list($low,$high) = explode(\"-\",$range); if( is_numeric($low) && is_numeric($high) ) { $matched = ($low <= $age && $age <= $high); } } if( $matched ) { return $values[$range]; } } } } if ( array_key_exists(\"default\", $values) ){ if( !empty($baseline) ) { return $baseline . $defaultSuffix; } return $values[$values[\"default\"]] . $defaultSuffix; } return \\'\\';', 'DEFAULT' => '// <?php $lkey = mb_strtolower($key); $rkey = (mb_substr($key, 0,2) == \"ry\") ? mb_substr($key,2) : 0; // removes the \\'ry\\' from the front if( !empty($values) ) { if( !empty($baseline) ) { return $baseline . $defaultSuffix; } $value = \"\"; try{ foreach( $values as $value ) { break; } } catch(Exception $e) { $value = $values; } return $value . (!empty($value) ? $defaultSuffix : \"\"); } foreach( array($adData,$userData) as $obj ) { if( !empty($obj) && array_key_exists($key, $obj) ) { return $obj[$key]; } if( !empty($rkey) && !empty($obj) && array_key_exists($rkey, $obj) ) { return $obj[$rkey]; } } if( mb_strtolower($rkey) == \\'adkey\\' || mb_strtolower($rkey) == \\'dealkey\\' || $lkey == \\'adkey\\' || $lkey == \\'dealkey\\' ) { return $adKey; } return \\'\\';', 'GENDER' => '// <?php if( array_key_exists(\\'sex\\', $userData)) { $g = $userData[\\'sex\\']; if( array_key_exists($g, $values) ) { return $values[$g]; } } if( array_key_exists(\\'default\\', $values) ) { if( !empty($baseline) ) { return $baseline . $defaultSuffix; } return $values[$values[\\'default\\']] . $defaultSuffix; } return \\'\\';', 'RANDOM' => '// <?php $s = 0; $e = array_pop($values); if( count($values) > 0 ) { $s = array_pop($values); } return rand($s,$e);', ) '_keyDefinitions' array ( 'gender' => array ( 'keyValues' => '{\"f\":\"2\",\"u\":\"3\",\"m\":\"1\",\"default\":\"u\"}', 'valueConverter' => 'GENDER', 'defaultIndicator' => 'TRUE', ), 'age' => array ( 'keyValues' => '{\"2-5\":\"1000\",\"6-11\":\"1001\",\"12-14\":\"1002\",\"15-17\":\"1003\",\"18-20\":\"1004\",\"21-24\":\"1005\",\"25-34\":\"1006\",\"35-44\":\"1007\",\"45-49\":\"1008\",\"50-54\":\"1009\",\"55-64\":\"1010\",\"+65\":\"1011\",\"unknown age\":\"1012\",\"default\":\"unknown age\"}', 'valueConverter' => 'AGE', 'defaultIndicator' => 'TRUE', ), 'random' => array ( 'keyValues' => '[\"0\",\"10000000\"]', 'valueConverter' => 'RANDOM', 'defaultIndicator' => 'FALSE', ), 'tier' => array ( 'keyValues' => '[\"srv9rw\",\"srv1sf\"]', 'valueConverter' => 'DEFAULT', 'defaultIndicator' => 'FALSE', ), 'agetest' => array ( 'keyValues' => '{\"2-14\":\"test1\",\"15-30\":\"test2\",\"31-50\":\"test3\",\"+50\":\"test4\",\"unknown age\":\"unknownTest\",\"default\":\"unknown age\"}', 'valueConverter' => 'AGE', 'defaultIndicator' => 'TRUE', ), 'gendertest' => array ( 'keyValues' => '{\"m\":\"male\",\"f\":\"female\",\"default\":\"f\"}', 'valueConverter' => 'GENDER', 'defaultIndicator' => 'TRUE', ), 'categories' => array ( 'keyValues' => '[\"rockYou-cat-1\"]', 'valueConverter' => 'DEFAULT', 'defaultIndicator' => 'FALSE', ), 'pageurl' => array ( 'keyValues' => '[\"facebook.com\"]', 'valueConverter' => 'DEFAULT', 'defaultIndicator' => 'FALSE', ), 'pageurlov' => array ( 'keyValues' => '[\"facebook.com\"]', 'valueConverter' => 'DEFAULT', 'defaultIndicator' => 'FALSE', ), 'publisherdomain' => array ( 'keyValues' => '[\"rockyou.com\"]', 'valueConverter' => 'DEFAULT', 'defaultIndicator' => 'FALSE', ), 'platform' => array ( 'keyValues' => '[\"facebook\"]', 'valueConverter' => 'DEFAULT', 'defaultIndicator' => 'FALSE', ), 'appkey' => array ( 'keyValues' => '[\"rockyou-game\"]', 'valueConverter' => 'DEFAULT', 'defaultIndicator' => 'FALSE', ), 'nodefaultagetest' => array ( 'keyValues' => '{\"2-20\":\"ageGrp1\",\"21-40\":\"ageGrp2\",\"41-65\":\"ageGrp3\",\"66-90\":\"ageGrp4\",\"+90\":\"ageGrp5\",\"default\":\"+90\"}', 'valueConverter' => 'AGE', 'defaultIndicator' => 'TRUE', ), 'nodefaultgendertest' => array ( 'keyValues' => '{\"m\":\"male\",\"f\":\"female\",\"u\":\"unknown\"}', 'valueConverter' => 'GENDER', 'defaultIndicator' => 'TRUE', ), 'watchdogtimerdefault' => array ( 'keyValues' => '[\"40\"]', 'valueConverter' => 'DEFAULT', 'defaultIndicator' => 'FALSE', ), 'gameurl' => array ( 'keyValues' => '[\"luckyslotsgame\"]', 'valueConverter' => 'DEFAULT', 'defaultIndicator' => 'FALSE', ), 'spotxpub' => array ( 'keyValues' => '[\"120980\"]', 'valueConverter' => 'DEFAULT', 'defaultIndicator' => 'FALSE', ), ) {\"success\":true,\"response\":null}",
+			"settings":
+			{
+				"buffer_size": 43585,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "project/DemoProject/index.php",
+			"settings":
+			{
+				"buffer_size": 903,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "project/admin/new/skeleton/css/admin.css",
+			"settings":
+			{
+				"buffer_size": 64,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "project/admin/css/bcmsBase.css",
+			"settings":
+			{
+				"buffer_size": 3545,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "Searching 13 files for \"container-widget\"\n\n0 matches\n\nSearching 67 files for \"container-widget\"\n\nC:\\Users\\robert.wlaschin\\Repositories\\git\\BeyondCMS\\project\\admin\\js\\adminApp.js:\n   92              function handleMouseMove(e) {\n   93                  var over;\n   94:                 var hovers = $(\".bcms-container-widget\").filter( \n   95                          function(elm) {\n   96                              var $this = $(this), pos = $this.position();\n\nC:\\Users\\robert.wlaschin\\Repositories\\git\\BeyondCMS\\project\\admin\\new\\skeleton\\load.php:\n    9  ?>\n   10          <div id='root_application'> <!-- this is here so the child element can be exported -->\n   11:             <div class='bcms-application bcms-container-widget'> \n   12                  <!-- this is where all of the applications elements will go -->\n   13              </div>\n\nC:\\Users\\robert.wlaschin\\Repositories\\git\\BeyondCMS\\project\\DemoProject\\load.php:\n    9  ?>\n   10          <div id='root_application'> <!-- this is here so the child element can be exported -->\n   11:             <div class='bcms-application bcms-container-widget'> \n   12                  <!-- this is where all of the applications elements will go -->\n   13              </div>\n\n3 matches across 3 files\n",
+			"settings":
+			{
+				"buffer_size": 1256,
+				"line_ending": "Windows",
+				"name": "Find Results",
+				"scratch": true
+			}
+		},
+		{
+			"file": "project/libraries/request.php",
+			"settings":
+			{
+				"buffer_size": 3669,
+				"line_ending": "Windows",
+				"name": "<?php"
+			}
+		},
+		{
+			"file": "/C/Users/robert.wlaschin/Repositories/svn/RyAds/AdUI/branches/release/ams/admin2/manageParameters.php",
+			"settings":
+			{
+				"buffer_size": 20028,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/robert.wlaschin/Repositories/svn/RyAds/AdUI/branches/release/ams/include/AMSParameters.php",
+			"settings":
+			{
+				"buffer_size": 16959,
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -566,12 +715,70 @@
 	},
 	"expanded_folders":
 	[
+		"/C/Users/robert.wlaschin/Repositories/git/BeyondCMS",
+		"/C/Users/robert.wlaschin/Repositories/git/BeyondCMS/project",
+		"/C/Users/robert.wlaschin/Repositories/git/BeyondCMS/project/admin",
+		"/C/Users/robert.wlaschin/Repositories/git/BeyondCMS/project/admin/css",
+		"/C/Users/robert.wlaschin/Repositories/git/BeyondCMS/project/admin/js",
+		"/C/Users/robert.wlaschin/Repositories/git/BeyondCMS/project/admin/templates",
+		"/C/Users/robert.wlaschin/Repositories/git/BeyondCMS/project/DemoProject"
 	],
 	"file_history":
 	[
+		"/C/wamp/logs/apache_error.log",
+		"/C/Users/robert.wlaschin/Repositories/git/BeyondCMS/project/admin/templates/Container.tpl",
+		"/C/Users/robert.wlaschin/Repositories/svn/RyAds/AdUI/branches/release/ams/admin2/manageParameters.php",
+		"/C/Users/robert.wlaschin/Repositories/svn/ctg/tool-box/tools/configBuilder/rebuildTemplates",
+		"/C/Users/robert.wlaschin/Repositories/git/BeyondCMS/project/admin/new/skeleton/index.php",
+		"/C/Users/robert.wlaschin/Repositories/git/BeyondCMS/project/admin/index.php",
+		"/C/Users/robert.wlaschin/Repositories/git/BeyondCMS/project/admin/new/create.php",
+		"/C/Users/robert.wlaschin/Repositories/git/BeyondCMS/project/admin/new/skeleton/js/projectTools.js",
+		"/C/Users/robert.wlaschin/Repositories/git/BeyondCMS/project/admin/css/bcmsBase.css",
+		"/C/Users/robert.wlaschin/Repositories/git/BeyondCMS/project/admin/js/adminApp.js",
+		"/C/Users/robert.wlaschin/Repositories/git/BeyondCMS/project/admin/new/skeleton/js/projectApp.js",
+		"/C/Users/robert.wlaschin/Repositories/git/BeyondCMS/project/testadminpage.html",
+		"/C/Users/robert.wlaschin/Repositories/git/BeyondCMS/project/DemoProject/load.php",
+		"/C/Users/robert.wlaschin/Repositories/git/BeyondCMS/project/admin/new/skeleton/load.php",
+		"/C/Users/robert.wlaschin/Repositories/git/BeyondCMS/project/DemoProject/index.php",
+		"/C/Users/robert.wlaschin/Repositories/git/BeyondCMS/project/admin/widgets/BreadCrumbs.ddf",
+		"/C/Users/robert.wlaschin/Repositories/git/BeyondCMS/project/admin/widgets/UserAccess.ddf",
+		"/C/Users/robert.wlaschin/Repositories/git/BeyondCMS/project/admin/widgets/User.ddf",
+		"/C/Users/robert.wlaschin/Repositories/git/BeyondCMS/project/admin/widgets/Toolbar.ddf",
+		"/C/Users/robert.wlaschin/Repositories/git/BeyondCMS/project/admin/widgets/Table.ddf",
+		"/C/Users/robert.wlaschin/Repositories/git/BeyondCMS/project/admin/widgets/Query.ddf",
+		"/C/Users/robert.wlaschin/Repositories/git/BeyondCMS/project/admin/widgets/MessageAgent.ddf",
+		"/C/Users/robert.wlaschin/Repositories/git/BeyondCMS/project/admin/widgets/Menu.ddf",
+		"/C/Users/robert.wlaschin/Repositories/git/BeyondCMS/project/admin/widgets/History.ddf",
+		"/C/Users/robert.wlaschin/Repositories/git/BeyondCMS/project/admin/widgets/Graph.ddf",
+		"/C/Users/robert.wlaschin/Repositories/git/BeyondCMS/project/admin/widgets/Container.ddf",
+		"/C/Users/robert.wlaschin/Repositories/git/BeyondCMS/project/admin/widgets/Dialog.ddf",
+		"/C/Users/robert.wlaschin/Repositories/git/BeyondCMS/project/admin/widgets/Filter.ddf",
+		"/C/Users/robert.wlaschin/Repositories/svn/ctg/branches/clideploy-apolo/dl/rydeploy/deploytohosts/deploytohosts.pl",
+		"/C/wamp/bin/apache/apache2.4.17/conf/extra/httpd-vhosts.conf",
+		"/C/Users/robert.wlaschin/Repositories/git/BeyondCMS/project/admin/new/My2New.tar",
+		"/C/Users/robert.wlaschin/Repositories/git/BeyondCMS/project/index.html",
+		"/C/Users/robert.wlaschin/Repositories/svn/RyAds/AdSystem/AdServerFilters/OA-83/src/com/RockYou/RYAds/CoarseAdFilters/DefaultCoarseAdFilter.java",
+		"/C/wamp/bin/apache/apache2.4.17/conf/httpd.conf",
+		"/C/Users/robert.wlaschin/Repositories/git/BeyondCMS/project/admin/templates/BreadCrumbs.tpl",
+		"/C/Users/robert.wlaschin/Repositories/git/BeyondCMS/project/admin/templates/Dialog.tpl",
+		"/C/Users/robert.wlaschin/Repositories/git/BeyondCMS/project/admin/templates/Filter.tpl",
+		"/C/Users/robert.wlaschin/Repositories/git/BeyondCMS/project/admin/templates/Graph.tpl",
+		"/C/Users/robert.wlaschin/Repositories/git/BeyondCMS/project/admin/templates/History.tpl",
+		"/C/Users/robert.wlaschin/Repositories/git/BeyondCMS/project/admin/templates/Menu.tpl",
+		"/C/Users/robert.wlaschin/Repositories/git/BeyondCMS/project/admin/templates/MessageAgent.tpl",
+		"/C/Users/robert.wlaschin/Repositories/git/BeyondCMS/project/admin/templates/Query.tpl",
+		"/C/Users/robert.wlaschin/Repositories/git/BeyondCMS/project/admin/templates/Table.tpl",
+		"/C/Users/robert.wlaschin/Repositories/git/BeyondCMS/project/admin/templates/Toolbar.tpl",
+		"/C/Users/robert.wlaschin/Repositories/git/BeyondCMS/project/admin/templates/User.tpl",
+		"/C/Users/robert.wlaschin/Repositories/git/BeyondCMS/project/admin/templates/UserAccess.tpl",
+		"/C/Users/robert.wlaschin/Repositories/git/BeyondCMS/project/admin/new/load.php",
+		"/C/Users/robert.wlaschin/Repositories/git/BeyondCMS/project/admin/new/skeleton/VERSION",
+		"/C/Users/robert.wlaschin/Repositories/git/BeyondCMS/project/admin/new/skeleton/folders.lst",
+		"/C/Users/robert.wlaschin/Repositories/git/BeyondCMS/project/.htaccess",
+		"/C/Users/robert.wlaschin/Repositories/git/TestProjects/buddies/interstitialScopelyCode.js",
+		"/C/Users/robert.wlaschin/Repositories/git/BeyondCMS/project/libraries/bcmsBase.css",
 		"/C/Users/robert.wlaschin/Repositories/svn/RyAds/AdUI/branches/release/rya/js/RYANCore.js",
 		"/C/Users/robert.wlaschin/Repositories/svn/RyAds/AdUI/branches/release/rya/js/modules/RYANDeal.js",
-		"/C/Users/robert.wlaschin/Repositories/git/TestProjects/buddies/interstitialScopelyCode.js",
 		"/C/Users/robert.wlaschin/Documents/Garbage/Zynga-Data/rockyou_load_1101-1105.csv",
 		"/C/Users/robert.wlaschin/Documents/Garbage/Zynga-Data/rockyou_load-1101-1102.csv",
 		"/C/Users/robert.wlaschin/Repositories/git/TestProjects/buddies/interstitialCode.js",
@@ -645,68 +852,20 @@
 		"/C/Users/robert.wlaschin/Repositories/svn/RyAds/AdUI/branches/release-deal/ams/interstitial/js/ryinterstitial_lib.js",
 		"/C/Users/robert.wlaschin/Repositories/svn/RyAds/AdUI/branches/release/ams/interstitial/js/ryinterstitial_lib.js",
 		"/C/Users/robert.wlaschin/Repositories/svn/source/includes/Cache.php",
-		"/C/Users/robert.wlaschin/Repositories/svn/RyAds/AdUI/branches/release-deal/rya/js/modules/RYANDeal.js",
-		"/C/Users/robert.wlaschin/Repositories/svn/RyAds/AdUI/branches/release-deal/ams/include/updateAdPriority.php",
-		"/C/Users/robert.wlaschin/Repositories/svn/RyAds/AdUI/branches/release-deal/tools/ams/tests/ryanCoreAPITests/CloseAdOnComplete.js",
-		"/C/Users/robert.wlaschin/Repositories/svn/RyAds/AdUI/branches/release-deal/tools/testingHarness/rockadmin/ads/tests/templates/ryan_test_js.php",
-		"/C/Users/robert.wlaschin/Desktop/placedata.csv",
-		"/C/Users/robert.wlaschin/Repositories/svn/RyAds/AdSystem/PriorityCalculator/src/com/RockYou/ryads/PlacementPriority/PlacementPriorityController.java",
-		"/C/Users/robert.wlaschin/Repositories/svn/RyAds/AdSystem/PriorityCalculator/src/com/RockYou/ryads/PlacementPriority/calculator/IPlacementCalculator.java",
-		"/C/Users/robert.wlaschin/Repositories/svn/RyAds/AdSystem/PriorityCalculator/src/com/RockYou/ryads/PlacementPriority/calculator/QScorePlacementCalculator.java",
-		"/C/Users/robert.wlaschin/Desktop/placedata.xls",
-		"/C/Users/robert.wlaschin/Repositories/svn/RyAds/AdUI/branches/release-deal/tools/ams/tests/ryancoreAPITest.php",
-		"/C/Users/robert.wlaschin/Repositories/svn/RyAds/AdUI/branches/release-deal/rya/templates/modules/video/IMAPlayer.php",
-		"/C/Users/robert.wlaschin/Repositories/svn/RyAds/AdUI/branches/release-deal/rya/templates/HTML/Deal_Template.php",
-		"/C/Users/robert.wlaschin/Repositories/svn/RyAds/AdUI/branches/release-deal/rya/templates/HTML/Interstitial_Template.php",
-		"/C/Users/robert.wlaschin/Repositories/svn/RyAds/AdUI/branches/release-deal/rya/templates/modules/video/AdaptPlayer.php",
-		"/C/Users/robert.wlaschin/Repositories/svn/RyAds/AdUI/branches/release-deal/rya/plugins/components/UI/AutoCompleteTimer_Component.php",
-		"/C/Users/robert.wlaschin/Repositories/svn/RyAds/AdUI/branches/release-deal/rya/plugins/components/Multiburn/Multiburn_Component.php",
-		"/C/Users/robert.wlaschin/Repositories/svn/RyAds/AdUI/branches/release-deal/rya/templates/Mediabrix/Flex_HTMLTemplate.php",
-		"/C/Users/robert.wlaschin/Repositories/svn/RyAds/AdUI/branches/release-deal/tools/ams/tests/ryanCoreAPITests/CloseAdOnCompleteTest.js",
-		"/C/Users/robert.wlaschin/Repositories/svn/RyAds/AdUI/branches/release-idleroll/rya/js/RYANCore.js",
-		"/C/Users/robert.wlaschin/Repositories/svn/RyAds/AdUI/branches/release-idleroll/ams/dotd/test/reward.php",
-		"/C/Users/robert.wlaschin/Repositories/svn/RyAds/AdUI/branches/release-deal/rya/adserver/AdServerRewardInterface.php",
-		"/C/Users/robert.wlaschin/Repositories/svn/RyAds/AdSystem/AdServer/release/src/com/RockYou/AdServer/Data/DealDataPool.java",
-		"/C/Users/robert.wlaschin/Repositories/svn/RyAds/AdSystem/AdServer/release/src/com/RockYou/AdServer/Data/AdRequestData.java",
-		"/C/Users/robert.wlaschin/Repositories/svn/RyAds/AdSystem/AdServer/release/src/com/RockYou/AdServer/Data/AdRequestDataFactory.java",
-		"/C/Users/robert.wlaschin/Repositories/svn/RyAds/AdSystem/AdServer/release/src/com/RockYou/AdServer/Data/meta/PubCache.java",
-		"/C/Users/robert.wlaschin/Repositories/svn/RyAds/AdUI/branches/release-deal/rya/adserver/AdServerInterfaceBase.php",
-		"/C/Users/robert.wlaschin/Repositories/svn/RyAds/AdUI/branches/release-deal/rya/adserver/AdServerDealInterface.php",
-		"/C/Users/robert.wlaschin/Repositories/svn/RyAds/AdSystem/AdServer/release/src/com/RockYou/common/database/ConnectionPoolManager.java",
-		"/C/Users/robert.wlaschin/Repositories/svn/RyAds/AdSystem/AdServer/release/src/com/RockYou/AdServer/Servlet/AMS30/Server.java",
-		"/C/Users/robert.wlaschin/Repositories/svn/RyAds/AdSystem/AdServer/release/src/com/RockYou/AdServer/Servlet/AMS30/EventRecorder.java",
-		"/C/Users/robert.wlaschin/Repositories/svn/RyAds/AdSystem/AdServer/release/src/com/RockYou/AdServer/Config/SystemConfig.java",
-		"/C/Users/robert.wlaschin/Repositories/svn/RyAds/AdUI/branches/release-deal/rya/adserver/AdServerInterface.php",
-		"/C/Users/robert.wlaschin/Repositories/svn/RyAds/AdSystem/AdServer/release/INF/Dev/META-INF/context.xml",
-		"/C/Users/robert.wlaschin/Repositories/svn/RyAds/AdSystem/AdServer/release/INF/META-INF/context.xml",
-		"/C/Users/robert.wlaschin/Repositories/svn/RyAds/AdSystem/AdServer/release/INF/Prod/META-INF/context.xml",
-		"/C/Users/robert.wlaschin/Repositories/svn/RyAds/AdUI/working/current/tools/rya/jsUnit/mediumrecttests.js",
-		"/C/Users/robert.wlaschin/Repositories/svn/RyAds/AdUI/branches/release-deal/rya/utils/AdUtils.php",
-		"/C/Users/robert.wlaschin/Repositories/svn/RyAds/AdUI/working/current/rya/includes/AMSDB.php",
-		"/C/Users/robert.wlaschin/Repositories/svn/RyAds/AdUI/branches/release-deal/rya/utils/ParameterReplacement.php",
-		"/C/Users/robert.wlaschin/Repositories/svn/RyAds/AdUI/working/current/rya/adserver/AdServerDealInterface.php",
-		"/C/Users/robert.wlaschin/Repositories/svn/RyAds/AdUI/working/current/rya/utils/AdPassback.php",
-		"/C/Users/robert.wlaschin/Repositories/svn/RyAds/AdUI/working/current/rya/includes/Cache.php",
-		"/C/Users/robert.wlaschin/Repositories/svn/RyAds/AdUI/branches/release/rya/adserver/AdServerInterface.php",
-		"/C/Users/robert.wlaschin/Repositories/svn/RyAds/AdUI/branches/release/rya/data/AdData.php",
-		"/C/Users/robert.wlaschin/Repositories/svn/RyAds/AdUI/working/current/rya/data/SignalData.php",
-		"/C/Users/robert.wlaschin/Repositories/svn/RyAds/AdUI/working/current/rya/utils/ParameterReplacement.php",
-		"/C/Users/robert.wlaschin/Repositories/svn/RyAds/AdUI/working/current/rya/templates/links/LinkCreate_Interstitial.php",
-		"/C/Users/robert.wlaschin/Repositories/svn/RyAds/AdUI/branches/release/rya/utils/AdJSHelper.php",
-		"/C/Users/robert.wlaschin/Repositories/svn/RyAds/AdUI/branches/release-deal/rya/data/SignalData.php",
-		"/C/Users/robert.wlaschin/Repositories/svn/RyAds/AdUI/branches/release-deal/rya/data/signal/RyStatsSignal.php",
-		"/C/Users/robert.wlaschin/Repositories/svn/RyAds/AdUI/branches/release-deal/rya/data/signal/AdSignal.php",
-		"/C/Users/robert.wlaschin/Repositories/svn/RyAds/AdUI/branches/release-deal/rya/adserver/AdServerManager.php"
+		"/C/Users/robert.wlaschin/Repositories/svn/RyAds/AdUI/branches/release-deal/rya/js/modules/RYANDeal.js"
 	],
 	"find":
 	{
-		"height": 26.0
+		"height": 34.0
 	},
 	"find_in_files":
 	{
 		"height": 90.0,
 		"where_history":
 		[
+			"C:\\Users\\robert.wlaschin\\Repositories\\git\\BeyondCMS\\project",
+			"C:\\Users\\robert.wlaschin\\Repositories\\git\\BeyondCMS\\project\\admin\\widgets,*.ddf",
+			"C:\\Users\\robert.wlaschin\\Repositories\\git\\BeyondCMS\\project\\admin\\widgets",
 			"C:\\Users\\robert.wlaschin\\Repositories\\svn\\RyAds\\AdUI\\branches\\release-greenframe\\rya,*.php",
 			"<Project>,*.php",
 			"<Project>",
@@ -811,137 +970,137 @@
 	},
 	"find_state":
 	{
-		"case_sensitive": true,
+		"case_sensitive": false,
 		"find_history":
 		[
-			"HINITIALIZED",
-			"Data",
+			"stage3c",
+			"}",
+			".*\\{",
+			".*{",
+			".*\\{",
+			"retention",
+			"populateFromDatabase",
+			"getFromStore",
+			"Rebuild",
+			"BLD",
+			"UPD",
+			"memcache",
+			"59250",
+			"container-widget",
+			"bcms-container-widget",
+			"purp",
+			"orange",
+			"source",
+			"oil",
+			"#16",
+			"midnightblue",
+			"midnight",
+			"indigo",
+			"darkpurple",
+			"gray",
+			"2px",
+			"2px ",
+			"button",
+			":",
+			"radius",
+			"-moz-transform:rotate(-90deg);\n    -ms-transform:rotate(-90deg);\n    -o-transform:rotate(-90deg);\n    -webkit-transform:rotate(-90deg);",
+			"10px",
+			"button",
+			"widget",
+			"ChildCtrl",
+			"app",
+			"templatesPath",
+			"widgetDefinitionsPath",
+			"dropTarget",
+			"rootScope",
+			"data =",
+			"handleCleanupCopy",
+			"broad",
+			"dropT",
+			"handleMouseUp",
+			"mouseup",
+			"--",
+			"!--",
+			"load",
 			"'",
-			"\"",
+			"ob_clean",
+			"echo",
+			"Location",
+			"echo",
+			"\"admin/images/",
+			"\"admin/images/breadcrumbs.png",
+			"bcmsBase",
+			"def",
+			"dev",
+			"ngGrabber",
+			"getInfo",
+			"admin-tools",
+			"radius",
+			"round",
+			"rounded",
+			"clone.pos",
+			"widget_placeholder_grab_object",
+			"grab_",
+			"elem",
+			";",
+			"widget_",
+			"widget",
+			"placeholder",
+			"leftEdgeY",
+			"right",
+			"longEdgeX",
+			"longEdgeY",
+			"highlight-drop-targe",
+			"$doc",
+			" mod = true;",
+			"clientX",
+			"clientY",
+			"querySelector",
+			"mouseup",
+			"ngGrabbable.placeholder[0]",
+			"startY",
+			"startX",
+			"copy.on",
+			"placeholder",
+			"element",
 			"=",
-			"]",
-			"[",
-			"divElement.style",
-			"divElement.style.",
-			"^(\\d+,)(2015-\\d\\d?-\\d\\d? \\d\\d?:\\d\\d?:\\d\\d?,)",
-			"^\\d+,2015-\\d\\d?-\\d\\d? \\d\\d?:\\d\\d?:\\d\\d?,",
-			"[45]\\d{4}",
-			"elem",
-			"40",
-			"elem",
-			"background-color",
-			"set",
-			"-100",
-			"background",
-			"background :",
-			"background",
-			"75",
-			"append",
-			"body",
-			"register",
-			"Listener",
-			"Handler",
-			"window.$",
-			"window.",
-			"addModal",
-			"removeModal",
-			":",
-			"modalId",
-			"attachControls",
-			"COMPLETE",
-			"_getDevServer",
-			"EQX_DEV_SERVER",
-			"getAdServer",
-			"setupUserInterface",
-			"closeBtnCountdownType",
-			"close",
-			"by default",
-			"event",
-			"registerPostEventHandler",
-			"offset",
-			"infoPanelHeight",
-			"ryInfoPanel",
-			"offset",
-			"infoClass",
-			"ryInfoPanel",
-			"ryGetJqueryObject()",
+			"this.",
+			"dragging",
+			"ngGra",
+			"scope",
+			"startY",
+			"setPosition",
+			"unbind",
+			"destroy",
+			"placeholder.",
+			"bcms-vertical-buttons",
+			"git",
+			"Copy",
+			"copyto",
+			"svnrepo",
+			"function",
+			"startY",
+			"stop",
+			"place",
+			"drag",
+			"angular",
+			"bcms-app",
+			"admin-tools",
+			"none",
+			"widget",
+			"singelton",
+			"hidden",
+			"64",
+			"selector",
+			"}",
+			"{",
+			"widget.",
+			"text",
+			"$root",
 			"alert",
-			"_defaultSettings",
-			"alert",
-			"setupCloseDiv",
-			"alert",
-			"setupUserInterface",
-			"videoComplete",
-			"complete",
-			"completeAd",
-			"CloseAd",
-			"alert",
-			"setAttributes",
-			"parseXML",
-			"executeEventHandlers",
-			"addMultiburnToExecuteEvent",
-			"executeEventHandler",
-			"executeEvent",
-			"execute",
-			"bottom: 30px",
-			"setupUserInterface",
-			"eventData",
-			"eventData.id",
-			"close",
-			"setupSkipDiv",
-			"eventData.id",
-			"storeSkipState",
-			"_panelHeight",
-			"offset",
-			"_panelHeight",
-			"setAttributes",
-			"countDownTimerCompleteState\n",
-			"resetSkipDiv",
-			"RYCloseCall",
-			"divs",
-			"divSkip",
-			"resize",
-			"resetCloseDiv",
-			"setupCloseDiv",
-			"ajaxCompleteHandler",
-			"registerEventHandler",
-			"videoComplete",
-			"resetCloseDiv",
-			"complete",
-			"ajaxCompleteHandler",
-			"complete",
-			"ryGetJqueryObject()",
-			"\n    * ",
-			"ajaxCompleteHandler",
-			"ryGetHeight",
-			"offset",
-			"beacon",
-			"AdLinks",
-			"AdLinks.php",
-			"AdLinks",
-			"executeMessage",
-			"localExecuteEvent",
-			"executeEvent",
-			"arguments",
-			"complete",
-			"completed",
-			":Total",
-			"Total",
-			":<",
-			":",
-			"videoComplete",
-			"videoCompleteHandler",
-			"registerPreEventHandler",
-			".registerEventL",
-			"zynga",
-			"register",
-			"ams/interstital/js/",
-			"ams/interstital/js/ryinterstitial_lib_dev.js",
-			"\\",
-			"inputs",
-			"--onlycombine 1 ",
-			"zynga",
-			"resize"
+			"control",
+			"ng-app='bcms' ",
+			"ng-control"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -949,6 +1108,9 @@
 		"regex": true,
 		"replace_history":
 		[
+			"",
+			"\"/admin/images/",
+			"singleton",
 			"\\2\\1",
 			"\\2,\\1",
 			"\\2\\1",
@@ -990,8 +1152,562 @@
 	"groups":
 	[
 		{
+			"selected": 2,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "/C/Windows/System32/drivers/etc/hosts",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1512,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								878,
+								878
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 300.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 801,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								282,
+								282
+							]
+						],
+						"settings":
+						{
+							"auto_name": "Notes --",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/C/Users/robert.wlaschin/Desktop/mathSheetGenerator.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7584,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3007,
+								3007
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1134.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "project/admin/templates/Container.tpl",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 203,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								203,
+								203
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "project/README",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 344,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								343,
+								343
+							]
+						],
+						"settings":
+						{
+							"auto_name": "README",
+							"history_list_is_closing": true,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "project/admin/js/adminTools.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 605,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								442,
+								442
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "project/admin/index.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4054,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								193,
+								193
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "project/admin/js/adminApp.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 10776,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3430,
+								3408
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1235.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "/C/Users/robert.wlaschin/Repositories/svn/ctg/tool-box/tools/configBuilder/default",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3535,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								935,
+								945
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 257.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "/C/Users/robert.wlaschin/Repositories/svn/ctg/tool-box/tools/configBuilder/configs/ryadsdev2a.config",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 189,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								188,
+								188
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 43585,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								15472,
+								15472
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1733.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "project/DemoProject/index.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 903,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								704,
+								704
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 17,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "project/admin/new/skeleton/css/admin.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 64,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								64,
+								64
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 14,
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "project/admin/css/bcmsBase.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3545,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3503,
+								3503
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2597.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 13,
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1256,
+						"regions":
+						{
+							"match":
+							{
+								"flags": 112,
+								"regions":
+								[
+									[
+										306,
+										322
+									],
+									[
+										716,
+										732
+									],
+									[
+										1097,
+										1113
+									]
+								],
+								"scope": ""
+							}
+						},
+						"selection":
+						[
+							[
+								314,
+								314
+							]
+						],
+						"settings":
+						{
+							"detect_indentation": false,
+							"line_numbers": false,
+							"output_tag": 2,
+							"result_base_dir": "",
+							"result_file_regex": "^([A-Za-z\\\\/<].*):$",
+							"result_line_regex": "^ +([0-9]+):",
+							"scroll_past_end": true,
+							"syntax": "Packages/Default/Find Results.hidden-tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 54.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 15,
+					"type": "text"
+				},
+				{
+					"buffer": 15,
+					"file": "project/libraries/request.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3669,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3646,
+								3646
+							]
+						],
+						"settings":
+						{
+							"auto_name": "<?php",
+							"history_list_is_closing": true,
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 509.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 16,
+					"type": "text"
+				},
+				{
+					"buffer": 16,
+					"file": "/C/Users/robert.wlaschin/Repositories/svn/RyAds/AdUI/branches/release/ams/admin2/manageParameters.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 20028,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								942,
+								954
+							]
+						],
+						"settings":
+						{
+							"history_list_is_closing": true,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 162.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 17,
+					"file": "/C/Users/robert.wlaschin/Repositories/svn/RyAds/AdUI/branches/release/ams/include/AMSParameters.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 16959,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6119,
+								6139
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2710.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -1038,7 +1754,7 @@
 	"project": "",
 	"replace":
 	{
-		"height": 48.0
+		"height": 62.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -1047,6 +1763,50 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"amsparam",
+				"release\\ams\\include\\AMSParameters.php"
+			],
+			[
+				"managerpar",
+				"release\\ams\\admin2\\manageParameters.php"
+			],
+			[
+				"manageparam",
+				"release\\ams\\admin2\\manageParameters.php"
+			],
+			[
+				"index",
+				"project\\admin\\index.php"
+			],
+			[
+				"adminapp",
+				"project\\admin\\js\\adminApp.js"
+			],
+			[
+				"beyondtoo",
+				"project\\admin\\js\\beyondTools.js"
+			],
+			[
+				"create.php",
+				"project\\admin\\new\\create.php"
+			],
+			[
+				"skeleton",
+				"project\\admin\\new\\skeleton\\load.php"
+			],
+			[
+				"load",
+				"project\\admin\\new\\skeleton\\load.php"
+			],
+			[
+				"create",
+				"project\\admin\\new\\create.php"
+			],
+			[
+				"request",
+				"project\\libraries\\request.php"
+			],
 			[
 				"host",
 				"C:\\Windows\\System32\\drivers\\etc\\hosts"
@@ -1066,10 +1826,6 @@
 			[
 				"kibanasi",
 				"rya\\data\\signal\\KibanaSignal.php"
-			],
-			[
-				"create",
-				"rya\\templates\\links\\LinkCreate_Interstitial.php"
 			],
 			[
 				"hosts",
@@ -1518,46 +2274,6 @@
 			[
 				"dealtimer",
 				"release-deal\\rya\\plugins\\components\\UI\\CountdownDealTimer_Component.php"
-			],
-			[
-				"adata",
-				"release-deal\\rya\\data\\AdData.php"
-			],
-			[
-				"tag_os.j",
-				"release-deal\\ams\\js\\tag_os.js"
-			],
-			[
-				"_component",
-				"release-deal\\rya\\plugins\\components\\UI\\CountdownDealTimer_Component.php"
-			],
-			[
-				"deal_tem",
-				"release-deal\\rya\\templates\\HTML\\Deal_Template.php"
-			],
-			[
-				"_compon",
-				"release-deal\\rya\\plugins\\components\\UI\\CountdownDealTimer_Component.php"
-			],
-			[
-				"rewardcomp",
-				"release-deal\\rya\\plugins\\components\\UI\\RewardButton_Component.php"
-			],
-			[
-				"deal_te",
-				"release-deal\\rya\\templates\\HTML\\Deal_Template.php"
-			],
-			[
-				"adjshelper",
-				"release-deal\\rya\\utils\\AdJSHelper.php"
-			],
-			[
-				"linkcreaint",
-				"release-deal\\rya\\templates\\links\\LinkCreate_Interstitial.php"
-			],
-			[
-				"ccupl",
-				"clideploy\\dl\\rydeploy\\deploytohosts\\CCURequest.pl"
 			]
 		],
 		"width": 0.0

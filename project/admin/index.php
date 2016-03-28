@@ -1,13 +1,15 @@
 <?php
     set_include_path(get_include_path() . PATH_SEPARATOR . '../');
 
-    $currentProject = @$_REQUEST['site'];
-    if( empty($currentProject) ) {
-        $setupPage = true;
-        $currentProject = "admin/new/load.php";
-    } else {
+    $site = @$_REQUEST['site'];
+
+    $setupPage = true;
+    $currentProject = "admin/new/load.php";
+    $currentProjectSite = "$site/load.php";
+
+    if( ! empty($site) && file_exists( $_SERVER['DOCUMENT_ROOT'] . "/" . $currentProjectSite ) ) {
         $setupPage = false;
-        $currentProject = "$currentProject/load.php";
+        $currentProject = $currentProjectSite;
     }
 
 ?>
@@ -15,10 +17,43 @@
     <head>
         <link rel="stylesheet" type="text/css" href="/admin/css/bcmsBase.css"/>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
+<?php if( $setupPage == false ) { ?>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.2/angular.js"></script>
+        <!-- script src="https://ajax.googleapis.com/ajax/libs/angular_material/1.0.0-rc1/angular-material.min.js"></script -->
+        <script src="/admin/js/adminApp.js"></script>
+        <script src="/admin/js/adminTools.js"></script>
+<?php } ?>
     </head>
     <body ng-app='bcms' class='bcms-admin'>
+<?php if ($setupPage == false ) { ?>
+        <div class='admin-tools admin-configuration-tools'>
+            <div class="bcms-admin-toolbar">
+                <div class="bcms-panel">
+                    <div class="bcms-admin-panel">
+                        <!-- this is for settings options for when widgets are selected -->
+                        <form class='bcms-admin-settings-default'>
+                            <label for="bcmsSiteSettingCss">Css File (placed in css directory)</label><br/>
+                            <input type="text" name="bcmsSiteSettingCss" class="bcms-settings-textbox" value="default.css"/>
+                            <input type="button" class="bcms-upload-button" value="..." title="Upload css file"/>
+                        </form>
+                        <form class='bcms-admin-settings-default'>
+                            <label for="bcmsSiteSettingWidth">Site Width</label><br/>
+                            <input type="text" name="bcmsSiteSettingWidth" class="bcms-settings-textbox" value="100%"/><br/>
+                            <label for="bcmsSiteSettingHeight">Site Height</label><br/>
+                            <input type="text" name="bcmsSiteSettingHeight" class="bcms-settings-textbox" value="infinite"/><br/>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div> 
+<?php } ?>
         <!-- this can only be bootstrap as we have to combine/insert pieces to generate the code we want -->
         <?php include( $currentProject ); echo PHP_EOL;?>
+<?php if ($setupPage == true ) { ?>
+        <script>
+            $('input[name="site"]').val( "<?php echo $site;?>" );
+        </script>
+<?php } ?>
 <?php if ($setupPage == false ) { ?>
         <div class='admin-tools'> <!-- this is where all of the applications that should not be exported will go -->
             <div class="bcms-admin-toolbar">
@@ -60,12 +95,6 @@
                      with the mouse -->
             </div>
         </div>
-<?php } ?>
-<?php if( $setupPage == false ) { ?>
-        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.2/angular.js"></script>
-        <!-- script src="https://ajax.googleapis.com/ajax/libs/angular_material/1.0.0-rc1/angular-material.min.js"></script -->
-        <script src="/admin/js/adminApp.js"></script>
-        <script src="/admin/js/adminTools.js"></script>
 <?php } ?>
     </body>
 </html>
